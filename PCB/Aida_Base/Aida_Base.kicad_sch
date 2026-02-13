@@ -8225,6 +8225,19 @@
 		)
 		(uuid "c3f070f3-55cd-44f6-80f9-16d5b09a48b7")
 	)
+	(text "マトリクス内のMidねじ＝ボトム用ねじ\nの場合があるので、\nこちらは少し減らす予定"
+		(exclude_from_sim no)
+		(at 36.83 289.56 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "d753e38d-6963-471b-b249-6d4c4e2b0075")
+	)
 	(text "SCREWS\nto Bottom Plate"
 		(exclude_from_sim no)
 		(at 14.605 262.255 0)
