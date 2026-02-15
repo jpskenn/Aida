@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Lib_Local")(type "KiCad")(uri "/Users/kenn/Git/jpskenn/Aida/PCB/Aida_Mid_Outside/Lib_Local")(options "")(descr ""))
+)
