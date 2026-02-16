@@ -7458,14 +7458,14 @@
 	(footprint "Lib_Local:MountingHole_M2_Through-hole_tap_THC-0.8-2.0-2_minimal"
 		(layer "F.Cu")
 		(uuid "5c55572f-4a91-4f22-91ea-15ab27840e56")
-		(at 147.637604 53.57815 180)
+		(at 147.637604 52.3875 180)
 		(descr "Mounting Hole 2.2mm, M2")
 		(tags "mounting hole 2.2mm m2")
 		(property "Reference" "H15"
 			(at 0 -3.2 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e317da6f-abe7-4a03-a94b-3fec76d837db")
+			(uuid "d5485a90-a4aa-416a-bdc6-60dd6b2aea1d")
 			(effects
 				(font
 					(size 1 1)
@@ -7476,7 +7476,7 @@
 		(property "Value" "COL_L_4_to_Mid_Inside"
 			(at 0 3.2 180)
 			(layer "F.Fab")
-			(uuid "0b638b19-3efc-4499-a852-a513c8363e16")
+			(uuid "426f773f-197b-4ab7-a9ac-7b323ed1c601")
 			(effects
 				(font
 					(size 1 1)
@@ -7489,7 +7489,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc4cc827-9f88-4efc-b64a-4fa0ae589bd0")
+			(uuid "bb261176-b51b-4d2d-b647-2190c12b21ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7502,7 +7502,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b7bbcf3-9ea7-4512-aa14-7817875de486")
+			(uuid "243e13d5-9116-4fb9-90d1-605aacd0bf55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22950,7 +22950,7 @@
 			(at 0 -3.2 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ef65b3d4-c337-4f4f-93c3-f1ecefbc022c")
+			(uuid "e97af033-521a-4590-89e2-3e558dcd5d86")
 			(effects
 				(font
 					(size 1 1)
@@ -22961,7 +22961,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.2 180)
 			(layer "F.Fab")
-			(uuid "e689f45c-3cbd-4184-896b-64d7b507e0fc")
+			(uuid "3c4b8e22-79b1-4744-bbfb-2d1c6092f199")
 			(effects
 				(font
 					(size 1 1)
@@ -22974,7 +22974,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "465a433f-1a20-4ea9-bd4b-2e06fd370b28")
+			(uuid "257651cf-e1a0-4eb2-8a06-3e94ae19cb0e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22987,7 +22987,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19cfbb69-d25e-4e1b-9aef-8f925d36e0dd")
+			(uuid "91a652b8-a13b-4626-8ce4-6c98c632edb2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23081,7 +23081,7 @@
 	(footprint "Lib_Local:MountingHole_M2_Through-hole_tap_THC-0.8-2.0-2_minimal"
 		(layer "F.Cu")
 		(uuid "e44e79b7-9194-40e7-9c46-9d88adb125dc")
-		(at 122.634375 36.314081 180)
+		(at 123.825084 36.314073 180)
 		(descr "Mounting Hole 2.2mm, M2")
 		(tags "mounting hole 2.2mm m2")
 		(property "Reference" "H_mid_L1"
@@ -71604,16 +71604,28 @@
 		(uuid "03bad0ac-c6d6-404e-96d6-9430c4fe751e")
 	)
 	(gr_arc
-		(start 100.308533 33.932608)
-		(mid 100.482878 33.511703)
-		(end 100.903783 33.337358)
+		(start 129.478183 94.950808)
+		(mid 129.057278 94.776463)
+		(end 128.882933 94.355558)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "0530e996-329e-408a-bd6a-3691114f7eeb")
+		(uuid "08a91789-2520-4a35-83d5-8d142a8d4d2b")
+	)
+	(gr_arc
+		(start 141.681838 33.337308)
+		(mid 142.102784 33.511678)
+		(end 142.277133 33.932632)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Eco2.User")
+		(uuid "09f9b63f-2d15-4d0b-84be-024b493e9835")
 	)
 	(gr_line
 		(start 41.076579 35.718763)
@@ -71649,6 +71661,50 @@
 		(layer "Eco2.User")
 		(uuid "0fba0b96-61dc-4a8b-a6f8-3849558c2198")
 	)
+	(gr_line
+		(start 127.690333 75.900192)
+		(end 119.953433 75.901208)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Eco2.User")
+		(uuid "16c4e108-abdd-40ac-b537-8bbf53c2246f")
+	)
+	(gr_line
+		(start 100.308533 33.932608)
+		(end 100.308483 56.256358)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Eco2.User")
+		(uuid "19325e26-fba9-4a7d-a051-58e243a9332d")
+	)
+	(gr_line
+		(start 118.165494 56.851708)
+		(end 100.903783 56.851658)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Eco2.User")
+		(uuid "1c010799-7ade-4cec-aa8a-cfd0228af96e")
+	)
+	(gr_line
+		(start 150.016033 48.815108)
+		(end 143.467733 48.815108)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Eco2.User")
+		(uuid "1cf45929-b3a4-49b1-b6b9-34131c1adcf7")
+	)
 	(gr_arc
 		(start 100.903733 56.851608)
 		(mid 100.482828 56.677263)
@@ -71659,30 +71715,7 @@
 		)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "12bd318f-4480-4345-bbda-91ff91629e84")
-	)
-	(gr_circle
-		(center 128.587521 54.173471)
-		(end 131.262271 54.172171)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(locked yes)
-		(layer "Eco2.User")
-		(uuid "1ab1ab1c-80cf-4b8d-b9b9-b29c7e096e96")
-	)
-	(gr_line
-		(start 150.614013 94.355558)
-		(end 150.614014 35.718766)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(locked yes)
-		(layer "Eco2.User")
-		(uuid "2034f78a-26f4-4d42-b161-24807a371605")
+		(uuid "1f043881-aae1-4410-84cc-9dedd3249c0e")
 	)
 	(gr_curve
 		(pts
@@ -71708,19 +71741,19 @@
 		(uuid "267351e5-7f15-479f-957f-8b5e7109a327")
 	)
 	(gr_line
-		(start 148.232764 33.337516)
-		(end 100.903783 33.337308)
+		(start 128.880894 77.090824)
+		(end 128.882933 94.355558)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "2c05a173-2e65-4ed1-8e3e-a235bad83498")
+		(uuid "27a0b3e0-ffdb-4e5b-ac1b-89004ed9776b")
 	)
 	(gr_circle
-		(center 147.637537 73.8188)
-		(end 150.312287 73.8175)
+		(center 135.731277 76.200052)
+		(end 138.406027 76.198752)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -71728,18 +71761,42 @@
 		(fill no)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "2cb9b510-7c66-4069-adf0-2f333fd70129")
+		(uuid "2e95666d-4f38-4aa9-873d-0057123766da")
 	)
-	(gr_line
-		(start 118.762783 56.851708)
-		(end 100.903783 56.851658)
+	(gr_arc
+		(start 150.614013 94.355558)
+		(mid 150.439668 94.776463)
+		(end 150.018763 94.950808)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "40d5cb08-f43b-47a8-82d7-a4c0eb2d80fd")
+		(uuid "337480af-2bb3-40a6-9837-9623a61315f3")
+	)
+	(gr_line
+		(start 142.277132 47.624508)
+		(end 142.277133 33.932608)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Eco2.User")
+		(uuid "337ffd6f-f937-48d4-9a41-2c283adb23a4")
+	)
+	(gr_arc
+		(start 150.016038 48.815084)
+		(mid 150.436984 48.989454)
+		(end 150.611333 49.410408)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Eco2.User")
+		(uuid "3d93d847-bf0c-4b22-a3f1-ff8aa999ba76")
 	)
 	(gr_arc
 		(start 61.61405 56.25635)
@@ -71753,55 +71810,9 @@
 		(layer "Eco2.User")
 		(uuid "456109bd-291e-4dba-86cf-a5755befb576")
 	)
-	(gr_arc
-		(start 119.953383 75.901208)
-		(mid 119.532481 75.726865)
-		(end 119.358133 75.305958)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(locked yes)
-		(layer "Eco2.User")
-		(uuid "4c0c134d-833a-42f7-b43f-d406d3fb61c4")
-	)
-	(gr_line
-		(start 100.308533 33.932608)
-		(end 100.308483 56.256358)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(locked yes)
-		(layer "Eco2.User")
-		(uuid "62b7a806-36a9-401f-984b-5eb5aeb5a282")
-	)
-	(gr_arc
-		(start 148.232764 33.337516)
-		(mid 149.916574 34.034963)
-		(end 150.614014 35.718766)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(locked yes)
-		(layer "Eco2.User")
-		(uuid "67ac5309-0ca8-41c4-a795-7b156c767873")
-	)
-	(gr_line
-		(start 128.882833 76.496558)
-		(end 128.882933 94.355558)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(locked yes)
-		(layer "Eco2.User")
-		(uuid "6c3fbe5c-8dd9-417c-b1a7-30650063de80")
-	)
 	(gr_circle
-		(center 122.634391 36.314081)
-		(end 125.309141 36.312781)
+		(center 147.637604 52.3875)
+		(end 150.312354 52.3862)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -71809,19 +71820,29 @@
 		(fill no)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "6c86f79d-1cee-48fd-b282-f03dbb0fe754")
+		(uuid "494944e0-836d-4a87-a06e-c83bce84df0d")
 	)
-	(gr_circle
-		(center 147.637537 84.534434)
-		(end 150.312287 84.533134)
+	(gr_line
+		(start 150.018763 94.950857)
+		(end 129.478183 94.950808)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.05)
+			(type solid)
 		)
-		(fill no)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "719bae29-9a88-49f8-8ce6-56c8fd899d15")
+		(uuid "4e9944bb-2502-4ee8-badd-56a132d654b8")
+	)
+	(gr_line
+		(start 141.681833 33.337308)
+		(end 100.903783 33.337308)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Eco2.User")
+		(uuid "544fda16-b42b-49cc-a5b1-86c9d254c011")
 	)
 	(gr_circle
 		(center 194.060268 95.25006)
@@ -71847,8 +71868,8 @@
 		(uuid "7e9e392a-7827-4a63-b626-e6e4292160a8")
 	)
 	(gr_circle
-		(center 103.584375 36.314081)
-		(end 106.259125 36.312781)
+		(center 128.587521 54.173471)
+		(end 131.262271 54.172171)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -71856,43 +71877,55 @@
 		(fill no)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "8a288f0d-60ef-4baa-8f37-3827cd905457")
+		(uuid "8b846b5d-9841-4cb8-af97-68eb86b5c69b")
+	)
+	(gr_circle
+		(center 139.303155 36.314081)
+		(end 141.977905 36.312781)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Eco2.User")
+		(uuid "9073af0c-3749-4146-aea2-57b1fb250815")
 	)
 	(gr_arc
-		(start 118.762783 56.851708)
-		(mid 119.183691 57.026054)
-		(end 119.358033 57.446958)
+		(start 118.165494 56.851708)
+		(mid 119.005213 57.199534)
+		(end 119.353028 58.039258)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "971d576b-fc12-44d1-ad21-096164a03e84")
+		(uuid "979c2364-adfa-4f3f-bfdb-756716af599e")
 	)
 	(gr_arc
-		(start 150.614013 94.355558)
-		(mid 150.439676 94.776474)
-		(end 150.018763 94.950808)
+		(start 143.467733 48.815108)
+		(mid 142.625856 48.466378)
+		(end 142.277162 47.624486)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "978a18b2-e41c-4b3b-93dd-26be3707c38e")
+		(uuid "a1abd5ca-dbd1-470c-bc23-26578f0a468b")
 	)
 	(gr_arc
-		(start 129.478183 94.950808)
-		(mid 129.057281 94.776465)
-		(end 128.882933 94.355558)
+		(start 100.308533 33.932608)
+		(mid 100.482878 33.511703)
+		(end 100.903783 33.337358)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "9faf9618-a52e-4f7f-bd40-7c33899aea16")
+		(uuid "a1d1888b-9d9c-4970-a17a-7939cc1104c4")
 	)
 	(gr_arc
 		(start 61.01875 33.3373)
@@ -71917,6 +71950,18 @@
 		(layer "Eco2.User")
 		(uuid "ab084f8a-bb94-4d07-82bd-1406591aee0b")
 	)
+	(gr_arc
+		(start 127.690333 75.900192)
+		(mid 128.5322 76.248936)
+		(end 128.880894 77.090824)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Eco2.User")
+		(uuid "ade31af0-9982-420e-b38f-c87dcc326d9d")
+	)
 	(gr_circle
 		(center 194.072018 101.762291)
 		(end 196.072018 101.762291)
@@ -71939,17 +71984,17 @@
 		(layer "Eco2.User")
 		(uuid "b838206e-0566-4182-a87d-670d698b7b07")
 	)
-	(gr_arc
-		(start 128.287583 75.901308)
-		(mid 128.708491 76.075654)
-		(end 128.882833 76.496558)
+	(gr_circle
+		(center 147.637537 73.8188)
+		(end 150.312287 73.8175)
 		(stroke
-			(width 0.05)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
+		(fill no)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "b9ab391c-a998-4cae-bc2e-ec030d95ad9a")
+		(uuid "c8d35c2f-f718-46d7-9bc7-d4cef659f112")
 	)
 	(gr_circle
 		(center 39.886354 53.577773)
@@ -71964,29 +72009,18 @@
 		(uuid "cbf60ffd-bc66-44be-a3d2-57a5d4d8a601")
 	)
 	(gr_line
-		(start 128.287583 75.901308)
-		(end 119.953433 75.901208)
+		(start 150.614013 94.355558)
+		(end 150.614014 49.410408)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "d1687407-4ace-4e90-9395-1610c8eb666a")
+		(uuid "d2413283-117a-42f2-acd8-185b3552a3b1")
 	)
 	(gr_line
-		(start 150.018763 94.950857)
-		(end 129.478183 94.950808)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(locked yes)
-		(layer "Eco2.User")
-		(uuid "d1d62bb3-b455-43b0-ac20-5ff93cca844a")
-	)
-	(gr_line
-		(start 119.358033 57.446958)
+		(start 119.353028 58.039258)
 		(end 119.358133 75.305958)
 		(stroke
 			(width 0.05)
@@ -71994,19 +72028,7 @@
 		)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "d3d5563c-405f-413c-b57c-8bf7f53e0b14")
-	)
-	(gr_circle
-		(center 147.637604 53.57815)
-		(end 150.312354 53.57685)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(locked yes)
-		(layer "Eco2.User")
-		(uuid "d5e4ca94-ae7e-4c40-b609-31b8cfdb1380")
+		(uuid "d777d360-a21b-4593-ae07-dc5e8d6ea882")
 	)
 	(gr_circle
 		(center 165.496994 50.601585)
@@ -72020,6 +72042,30 @@
 		(uuid "d7f2e0ec-d2e0-4c82-a916-5ccc913c92ad")
 	)
 	(gr_circle
+		(center 147.637537 84.534434)
+		(end 150.312287 84.533134)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Eco2.User")
+		(uuid "e17e1932-4a13-4adc-b772-7c3cb6c4d35b")
+	)
+	(gr_circle
+		(center 123.825084 36.314073)
+		(end 126.499834 36.312773)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Eco2.User")
+		(uuid "e65b3afd-20d3-461b-a9bc-57f5a5942a3d")
+	)
+	(gr_circle
 		(center 165.485244 38.100285)
 		(end 166.985244 38.100285)
 		(stroke
@@ -72030,9 +72076,21 @@
 		(layer "Eco2.User")
 		(uuid "f0ce6ef3-666e-4ef2-8721-cf4d23d635f6")
 	)
+	(gr_arc
+		(start 119.953383 75.901208)
+		(mid 119.532478 75.726863)
+		(end 119.358133 75.305958)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Eco2.User")
+		(uuid "f1742172-915a-4016-b22f-45c75c5a68be")
+	)
 	(gr_circle
-		(center 135.731277 76.200052)
-		(end 138.406027 76.198752)
+		(center 103.584375 36.314081)
+		(end 106.259125 36.312781)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -72040,7 +72098,7 @@
 		(fill no)
 		(locked yes)
 		(layer "Eco2.User")
-		(uuid "f68a0af4-28e5-4077-8f49-b06bb357b5f3")
+		(uuid "f55375ff-e6d9-465c-b849-5d5ae1821d70")
 	)
 	(gr_curve
 		(pts
@@ -72053,18 +72111,6 @@
 		(locked yes)
 		(layer "Eco2.User")
 		(uuid "fa57a725-45a1-460c-ab70-561e452592fd")
-	)
-	(gr_circle
-		(center 139.303155 36.314081)
-		(end 141.977905 36.312781)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(locked yes)
-		(layer "Eco2.User")
-		(uuid "fb31d831-c139-4f08-8493-3841e746f636")
 	)
 	(gr_line
 		(start 330.99375 126.20625)
@@ -72423,6 +72469,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "中央のネジを1/32u上へ移動したい。\nBase用プレートで、\n下のスイッチにちょっとかぶり気味になっている。"
+		(at 88.701617 127.396962 0)
+		(layer "Eco2.User")
+		(uuid "3ee5538a-3986-49fd-ab37-bdb009b9fcd3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "直径=3.5mm"
 		(at 163.103992 42.267476 0)
 		(layer "Eco2.User")
@@ -72483,6 +72541,20 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Mid PCB outline"
+		(locked yes)
+		(at 100.606133 33.039658 0)
+		(layer "Eco2.User")
+		(uuid "cd87c656-38db-4688-a7d2-121b3995ac0e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "PCB Mid-Outside outline"
 		(locked yes)
 		(at 42.267197 32.1469 0)
@@ -72492,20 +72564,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Mid PCB-inside outline"
-		(locked yes)
-		(at 100.0125 32.742206 0)
-		(layer "Eco2.User")
-		(uuid "f68937a0-d4d0-40f6-9cb8-92e6bfbd318d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -79210,21 +79268,23 @@
 		)
 	)
 	(group ""
-		(uuid "82bb37d2-c534-4454-8e22-c91a423f7276")
+		(uuid "83c6d293-7384-4376-8b2a-28a2a04998b0")
 		(locked yes)
-		(members "0530e996-329e-408a-bd6a-3691114f7eeb" "12bd318f-4480-4345-bbda-91ff91629e84"
-			"1ab1ab1c-80cf-4b8d-b9b9-b29c7e096e96" "2034f78a-26f4-4d42-b161-24807a371605"
-			"2c05a173-2e65-4ed1-8e3e-a235bad83498" "2cb9b510-7c66-4069-adf0-2f333fd70129"
-			"40d5cb08-f43b-47a8-82d7-a4c0eb2d80fd" "4c0c134d-833a-42f7-b43f-d406d3fb61c4"
-			"62b7a806-36a9-401f-984b-5eb5aeb5a282" "67ac5309-0ca8-41c4-a795-7b156c767873"
-			"6c3fbe5c-8dd9-417c-b1a7-30650063de80" "6c86f79d-1cee-48fd-b282-f03dbb0fe754"
-			"719bae29-9a88-49f8-8ce6-56c8fd899d15" "8a288f0d-60ef-4baa-8f37-3827cd905457"
-			"971d576b-fc12-44d1-ad21-096164a03e84" "978a18b2-e41c-4b3b-93dd-26be3707c38e"
-			"9faf9618-a52e-4f7f-bd40-7c33899aea16" "b9ab391c-a998-4cae-bc2e-ec030d95ad9a"
-			"d1687407-4ace-4e90-9395-1610c8eb666a" "d1d62bb3-b455-43b0-ac20-5ff93cca844a"
-			"d3d5563c-405f-413c-b57c-8bf7f53e0b14" "d5e4ca94-ae7e-4c40-b609-31b8cfdb1380"
-			"f68937a0-d4d0-40f6-9cb8-92e6bfbd318d" "f68a0af4-28e5-4077-8f49-b06bb357b5f3"
-			"fb31d831-c139-4f08-8493-3841e746f636"
+		(members "08a91789-2520-4a35-83d5-8d142a8d4d2b" "09f9b63f-2d15-4d0b-84be-024b493e9835"
+			"16c4e108-abdd-40ac-b537-8bbf53c2246f" "19325e26-fba9-4a7d-a051-58e243a9332d"
+			"1c010799-7ade-4cec-aa8a-cfd0228af96e" "1cf45929-b3a4-49b1-b6b9-34131c1adcf7"
+			"1f043881-aae1-4410-84cc-9dedd3249c0e" "27a0b3e0-ffdb-4e5b-ac1b-89004ed9776b"
+			"2e95666d-4f38-4aa9-873d-0057123766da" "337480af-2bb3-40a6-9837-9623a61315f3"
+			"337ffd6f-f937-48d4-9a41-2c283adb23a4" "3d93d847-bf0c-4b22-a3f1-ff8aa999ba76"
+			"494944e0-836d-4a87-a06e-c83bce84df0d" "4e9944bb-2502-4ee8-badd-56a132d654b8"
+			"544fda16-b42b-49cc-a5b1-86c9d254c011" "8b846b5d-9841-4cb8-af97-68eb86b5c69b"
+			"9073af0c-3749-4146-aea2-57b1fb250815" "979c2364-adfa-4f3f-bfdb-756716af599e"
+			"a1abd5ca-dbd1-470c-bc23-26578f0a468b" "a1d1888b-9d9c-4970-a17a-7939cc1104c4"
+			"ade31af0-9982-420e-b38f-c87dcc326d9d" "c8d35c2f-f718-46d7-9bc7-d4cef659f112"
+			"cd87c656-38db-4688-a7d2-121b3995ac0e" "d2413283-117a-42f2-acd8-185b3552a3b1"
+			"d777d360-a21b-4593-ae07-dc5e8d6ea882" "e17e1932-4a13-4adc-b772-7c3cb6c4d35b"
+			"e65b3afd-20d3-461b-a9bc-57f5a5942a3d" "f1742172-915a-4016-b22f-45c75c5a68be"
+			"f55375ff-e6d9-465c-b849-5d5ae1821d70"
 		)
 	)
 	(group ""
