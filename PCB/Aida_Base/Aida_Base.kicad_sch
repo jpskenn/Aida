@@ -130,169 +130,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016)
@@ -1028,7 +865,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1036,21 +873,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -10.16 29.21 0)
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle"
-				(at 10.16 29.21 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -1071,7 +906,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB Full-Featured Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1080,7 +915,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "usb universal serial bus type-C full-featured"
+			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1098,10 +933,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
 				(rectangle
-					(start -0.254 -35.56)
-					(end 0.254 -34.544)
+					(start -0.254 -17.78)
+					(end 0.254 -16.764)
 					(stroke
 						(width 0)
 						(type default)
@@ -1111,41 +946,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 25.654)
-					(end 9.144 25.146)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 20.574)
-					(end 9.144 20.066)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 18.034)
-					(end 9.144 17.526)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 12.954)
-					(end 9.144 12.446)
+					(start 10.16 15.494)
+					(end 9.144 14.986)
 					(stroke
 						(width 0)
 						(type default)
@@ -1177,8 +979,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 5.334)
-					(end 9.144 4.826)
+					(start 10.16 2.794)
+					(end 9.144 2.286)
 					(stroke
 						(width 0)
 						(type default)
@@ -1210,85 +1012,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 -7.366)
-					(end 9.144 -7.874)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -9.906)
-					(end 9.144 -10.414)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -14.986)
-					(end 9.144 -15.494)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -17.526)
-					(end 9.144 -18.034)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -22.606)
-					(end 9.144 -23.114)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -25.146)
-					(end 9.144 -25.654)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -30.226)
-					(end 9.144 -30.734)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -32.766)
-					(end 9.144 -33.274)
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
 					(stroke
 						(width 0)
 						(type default)
@@ -1298,10 +1023,10 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
 				(rectangle
-					(start -10.16 27.94)
-					(end 10.16 -35.56)
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1417,8 +1142,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "USB_C_Receptacle_1_1"
 				(circle
 					(center -2.54 1.143)
 					(radius 0.635)
@@ -1500,8 +1223,10 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
 				(pin passive line
-					(at -7.62 -40.64 90)
+					(at -7.62 -22.86 90)
 					(length 5.08)
 					(name "SHIELD"
 						(effects
@@ -1519,7 +1244,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1537,7 +1262,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -1556,7 +1281,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -1575,7 +1300,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -1594,7 +1319,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08)
 					(name "VBUS"
 						(effects
@@ -1612,7 +1337,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08)
 					(hide yes)
 					(name "VBUS"
@@ -1631,7 +1356,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08)
 					(hide yes)
 					(name "VBUS"
@@ -1650,7 +1375,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08)
 					(hide yes)
 					(name "VBUS"
@@ -1669,7 +1394,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 20.32 180)
+					(at 15.24 10.16 180)
 					(length 5.08)
 					(name "CC1"
 						(effects
@@ -1687,7 +1412,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 17.78 180)
+					(at 15.24 7.62 180)
 					(length 5.08)
 					(name "CC2"
 						(effects
@@ -1705,7 +1430,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 12.7 180)
+					(at 15.24 2.54 180)
 					(length 5.08)
 					(name "D-"
 						(effects
@@ -1723,7 +1448,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 10.16 180)
+					(at 15.24 0 180)
 					(length 5.08)
 					(name "D-"
 						(effects
@@ -1741,7 +1466,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 7.62 180)
+					(at 15.24 -2.54 180)
 					(length 5.08)
 					(name "D+"
 						(effects
@@ -1759,7 +1484,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 5.08 180)
+					(at 15.24 -5.08 180)
 					(length 5.08)
 					(name "D+"
 						(effects
@@ -1769,186 +1494,6 @@
 						)
 					)
 					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "RX1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "RX1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "TX1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -10.16 180)
-					(length 5.08)
-					(name "TX1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "RX2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -17.78 180)
-					(length 5.08)
-					(name "RX2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -22.86 180)
-					(length 5.08)
-					(name "TX2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -25.4 180)
-					(length 5.08)
-					(name "TX2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -30.48 180)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -33.02 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5439,89 +4984,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -5850,338 +5312,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_1_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_2"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_2_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_3"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_3_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_5"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_5_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -8471,12 +7601,6 @@
 		(uuid "071b79c6-afa6-429e-982e-20fe17063243")
 	)
 	(junction
-		(at 327.66 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a5bc35c-5922-4819-b8c2-9366947eeee9")
-	)
-	(junction
 		(at 332.74 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8493,12 +7617,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f2e6b3b-638b-4ac8-9c50-ee4895567f2f")
-	)
-	(junction
-		(at 129.54 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11f8ac69-4cf5-47fd-a702-6315dc3ee192")
 	)
 	(junction
 		(at 38.1 104.14)
@@ -8535,6 +7653,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d67d601-88eb-4a68-bf4e-7d07e2618497")
+	)
+	(junction
+		(at 307.34 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ef7c8a7-3265-4acd-b924-d41f14ae7d99")
 	)
 	(junction
 		(at 157.48 186.69)
@@ -8849,6 +7973,12 @@
 		(uuid "792df15c-2c9c-4eb0-a2bc-dd6a99f0b6d2")
 	)
 	(junction
+		(at 327.66 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b481916-3d06-4155-aea5-d01ab651547b")
+	)
+	(junction
 		(at 241.3 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8859,12 +7989,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83ef7fb1-a8c6-40a7-90bc-154c09862480")
-	)
-	(junction
-		(at 307.34 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "860b60ce-db23-4c32-9a8c-85c353c18a44")
 	)
 	(junction
 		(at 260.35 115.57)
@@ -8883,6 +8007,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8825eec5-c0ce-4166-9e99-eb5037458458")
+	)
+	(junction
+		(at 109.22 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "885a6221-b098-411d-981b-3813915101a2")
 	)
 	(junction
 		(at 383.54 40.64)
@@ -9059,16 +8189,16 @@
 		(uuid "c06d45eb-bc55-4d54-923b-cac50a431f11")
 	)
 	(junction
-		(at 109.22 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2c5cf80-b41f-42d0-9def-7487c4a77d81")
-	)
-	(junction
 		(at 179.07 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3a6b54c-9985-4129-ad66-22b32a7857fe")
+	)
+	(junction
+		(at 129.54 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c540d3ef-664e-4beb-a9f4-3052c1882935")
 	)
 	(junction
 		(at 153.67 62.23)
@@ -9275,92 +8405,12 @@
 		(uuid "ff7a83ce-5d3a-4aad-a638-e05cfa193644")
 	)
 	(no_connect
-		(at 322.58 161.29)
-		(uuid "1faa8716-822f-4d15-9404-83f18fd33731")
-	)
-	(no_connect
-		(at 124.46 156.21)
-		(uuid "254c6a37-3f93-4023-ae80-9692acda999a")
-	)
-	(no_connect
-		(at 124.46 138.43)
-		(uuid "26657e30-9b1b-4ca9-acda-dfbd47195a18")
-	)
-	(no_connect
-		(at 124.46 163.83)
-		(uuid "2ce9d9c7-8a76-4f24-a972-1299819e5649")
-	)
-	(no_connect
-		(at 124.46 133.35)
-		(uuid "3b661282-b0e0-4be8-a385-cd24fee577ef")
-	)
-	(no_connect
-		(at 322.58 148.59)
-		(uuid "5aa10d12-c267-446f-98f4-4ac3666a2c01")
-	)
-	(no_connect
-		(at 124.46 153.67)
-		(uuid "5ab55e1d-547c-42fb-bf4a-815ee4707f02")
-	)
-	(no_connect
-		(at 322.58 130.81)
-		(uuid "5d6e5bdc-00bd-4883-89c3-e825668e689c")
-	)
-	(no_connect
-		(at 124.46 161.29)
-		(uuid "62068f86-d27d-40df-adbf-64074986c310")
-	)
-	(no_connect
-		(at 322.58 153.67)
-		(uuid "760f993d-aa21-4503-9dcf-d409f70f9a18")
-	)
-	(no_connect
-		(at 322.58 163.83)
-		(uuid "8256b128-effd-40f4-a458-e30a4916fabf")
-	)
-	(no_connect
-		(at 322.58 133.35)
-		(uuid "85236e6f-8be4-4258-a54a-8eefedd20494")
-	)
-	(no_connect
-		(at 124.46 130.81)
-		(uuid "8a66794a-a57b-4b39-b746-0517ae00a142")
-	)
-	(no_connect
 		(at 391.16 181.61)
 		(uuid "9be601fd-17f2-4334-b180-161bc6417644")
 	)
 	(no_connect
-		(at 322.58 146.05)
-		(uuid "9e09f69b-beb1-4627-80e3-652ae966e0c7")
-	)
-	(no_connect
-		(at 124.46 146.05)
-		(uuid "c4376307-518c-4a0a-8828-8a61cf9f87ac")
-	)
-	(no_connect
-		(at 322.58 156.21)
-		(uuid "cc32aa7b-4919-4747-93be-1cdf2df162e6")
-	)
-	(no_connect
-		(at 124.46 148.59)
-		(uuid "ddd16a50-20a9-496e-a60a-fa1ed8333a11")
-	)
-	(no_connect
-		(at 124.46 140.97)
-		(uuid "e8add3b5-f00d-4a63-b4e2-41c431d348cc")
-	)
-	(no_connect
 		(at 193.04 181.61)
 		(uuid "f8ba03b8-af5f-4f80-93c4-83d61dbcf515")
-	)
-	(no_connect
-		(at 322.58 138.43)
-		(uuid "fa3bc2f7-09ff-4ab0-aa2e-45b17ae6b5f6")
-	)
-	(no_connect
-		(at 322.58 140.97)
-		(uuid "fcd0b381-6d21-445e-8756-2b08cd890e04")
 	)
 	(wire
 		(pts
@@ -9394,7 +8444,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 203.2) (xy 374.65 203.2)
+			(xy 374.65 203.2) (xy 387.35 203.2)
 		)
 		(stroke
 			(width 0)
@@ -9934,7 +8984,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 171.45) (xy 307.34 171.45)
+			(xy 299.72 153.67) (xy 307.34 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9974,7 +9024,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 203.2) (xy 176.53 203.2)
+			(xy 179.07 200.66) (xy 176.53 200.66)
 		)
 		(stroke
 			(width 0)
@@ -10151,6 +9201,16 @@
 			(type default)
 		)
 		(uuid "43350f90-5bce-4a87-b284-ba84c05ef94e")
+	)
+	(wire
+		(pts
+			(xy 176.53 203.2) (xy 189.23 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a9c124-e02a-4efe-a0dd-b6f5c5bae133")
 	)
 	(wire
 		(pts
@@ -10464,7 +9524,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 123.19) (xy 124.46 125.73)
+			(xy 124.46 133.35) (xy 124.46 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11014,7 +10074,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 110.49) (xy 327.66 113.03)
+			(xy 327.66 120.65) (xy 327.66 123.19)
 		)
 		(stroke
 			(width 0)
@@ -11174,7 +10234,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 123.19) (xy 322.58 125.73)
+			(xy 322.58 133.35) (xy 322.58 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11204,7 +10264,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 118.11) (xy 124.46 120.65)
+			(xy 124.46 128.27) (xy 124.46 130.81)
 		)
 		(stroke
 			(width 0)
@@ -11374,7 +10434,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 171.45) (xy 109.22 171.45)
+			(xy 101.6 153.67) (xy 109.22 153.67)
 		)
 		(stroke
 			(width 0)
@@ -11591,6 +10651,16 @@
 			(type default)
 		)
 		(uuid "bb62d99b-5ec3-440a-b167-eafb5d2ad10d")
+	)
+	(wire
+		(pts
+			(xy 374.65 200.66) (xy 377.19 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb8a22b4-6571-4233-a0be-f82743973d80")
 	)
 	(wire
 		(pts
@@ -11854,7 +10924,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 118.11) (xy 322.58 120.65)
+			(xy 322.58 128.27) (xy 322.58 130.81)
 		)
 		(stroke
 			(width 0)
@@ -12174,7 +11244,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 110.49) (xy 129.54 113.03)
+			(xy 129.54 120.65) (xy 129.54 123.19)
 		)
 		(stroke
 			(width 0)
@@ -12666,7 +11736,7 @@
 	)
 	(global_label "D+_R"
 		(shape input)
-		(at 322.58 125.73 0)
+		(at 322.58 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12676,7 +11746,7 @@
 		)
 		(uuid "16fddd66-c72f-4f29-8659-1c47cbc4b712")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 330.4033 125.73 0)
+			(at 330.4033 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12688,7 +11758,7 @@
 	)
 	(global_label "D-_R"
 		(shape input)
-		(at 322.58 120.65 0)
+		(at 322.58 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12698,7 +11768,7 @@
 		)
 		(uuid "1ac32e1d-1118-4ed9-a218-0f96055e8897")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 330.4033 120.65 0)
+			(at 330.4033 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15688,7 +14758,7 @@
 	)
 	(global_label "D+_L"
 		(shape input)
-		(at 124.46 125.73 0)
+		(at 124.46 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15698,7 +14768,7 @@
 		)
 		(uuid "ca3e3b9d-f11f-4cea-bd18-826c343de1d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.2833 125.73 0)
+			(at 132.2833 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15894,7 +14964,7 @@
 	)
 	(global_label "D-_L"
 		(shape input)
-		(at 124.46 120.65 0)
+		(at 124.46 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15904,7 +14974,7 @@
 		)
 		(uuid "cebb2f04-d62b-4967-b5f0-d434a3299c7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.2833 120.65 0)
+			(at 132.2833 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16844,6 +15914,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 149.86 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 149.86 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01768df8-016a-4e42-908b-c5692b738fb0")
 		)
@@ -16860,6 +15948,72 @@
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
 					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 278.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00ccb9e6-e91b-4d0d-a9ef-913b9c80c821")
+		(property "Reference" "#PWR061"
+			(at 237.49 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_R"
+			(at 237.49 282.2631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2eb68f2-f55b-40b1-8276-56df98fdbc44")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -16930,6 +16084,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 157.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 157.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 157.48 180.34 0)
 			(effects
 				(font
@@ -17399,6 +16571,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "1cd73516-7105-4b08-a322-113aa7032e3c")
 		)
@@ -17476,6 +16666,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 146.05 62.23 0)
 			(effects
 				(font
@@ -17620,6 +16828,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 377.19 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 377.19 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e91c3424-5478-4c20-bf98-b8e789b497b8")
 		)
@@ -17688,6 +16914,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 363.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 363.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 363.22 36.83 0)
 			(effects
 				(font
@@ -17866,6 +17110,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 176.53 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 176.53 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d837812-6a5d-4105-9e3f-d8c1feeae062")
 		)
@@ -17876,6 +17138,72 @@
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
 					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 387.35 203.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ab703c6-2c92-41e4-b43d-0b4c7e290d05")
+		(property "Reference" "#PWR0134"
+			(at 387.35 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_R"
+			(at 387.35 207.3331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 387.35 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.35 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 387.35 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cdbb725-8c7e-49de-bf62-8bdbbdd0acd8")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -17926,6 +17254,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 340.36 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 340.36 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 340.36 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18132,6 +17478,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 246.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 246.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e5a0c68-117a-4887-ab40-b809204410ab")
 		)
@@ -18211,6 +17575,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 195.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 195.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 195.58 180.34 0)
 			(effects
 				(font
@@ -18324,6 +17706,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 342.9 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 342.9 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c20cc06-affe-4868-88b1-84baff613ca5")
 		)
@@ -18409,6 +17809,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 350.52 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 350.52 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71ffd46c-d0eb-402d-900e-0956d404943d")
 		)
@@ -18470,6 +17888,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 171.45 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 171.45 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 171.45 213.36 0)
 			(effects
 				(font
@@ -18549,6 +17985,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 186.69 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 186.69 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17c1fbec-4d35-48b6-a878-80ca8b339f0c")
 		)
@@ -18614,6 +18068,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 146.05 49.53 0)
 			(effects
 				(font
@@ -18710,6 +18182,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 358.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 358.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3182f14-5ef6-4c57-a9b3-32c7eda66cab")
 		)
@@ -18771,6 +18261,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 161.29 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 161.29 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 161.29 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18916,6 +18424,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 171.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 171.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f658d19c-8b32-47e9-b7ad-25d23c2ea150")
 		)
@@ -18986,6 +18512,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 168.91 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 168.91 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "930f20fd-7535-47f8-a169-d487a30df232")
 		)
@@ -19016,7 +18560,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "COL_R_4_from_Top"
 			(at 339.09 33.3318 90)
 			(effects
 				(font
@@ -19044,6 +18588,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 340.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 340.36 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 340.36 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19283,6 +18845,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 189.23 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 189.23 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3fc3641c-b290-4bb8-b4c6-efe6e36844aa")
 		)
@@ -19388,6 +18968,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 368.3 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 368.3 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b1675f9-1b67-4e57-bce0-8a7ea97076ab")
 		)
@@ -19398,6 +18996,72 @@
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d162441-f7db-48d3-8d40-05a28ec3f3a8")
+		(property "Reference" "#PWR055"
+			(at 217.17 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_R"
+			(at 217.17 277.1831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ce1cbe1-66b4-4988-9df3-99cd2c8b9678")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -19449,6 +19113,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 26.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 26.67 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 26.67 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19532,6 +19214,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 388.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 388.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c55af8ba-b377-444e-bafb-d26c30bc0b41")
 		)
@@ -19593,6 +19293,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 171.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 171.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 171.45 228.6 0)
 			(effects
 				(font
@@ -19674,6 +19392,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 236.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 236.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19829,6 +19565,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 176.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 176.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21050761-5b95-4876-9463-7767ebb44b8d")
 		)
@@ -19898,6 +19652,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 38.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 38.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "760502bd-e31a-46f2-a4ef-80d27a0ec19b")
 		)
@@ -19908,6 +19680,72 @@
 			(project "Untitled"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20fd2d94-f232-4dbf-8cdf-c9726f61407a")
+		(property "Reference" "#PWR0130"
+			(at 36.83 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_L"
+			(at 36.83 277.1831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fccb90ad-ae75-4625-829b-db0542dcdbd1")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -19961,6 +19799,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 118.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 118.11 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 118.11 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20049,15 +19905,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 113.03 0)
+		(at 214.63 278.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "21df6a4b-54d5-416c-9441-292a77e9819b")
-		(property "Reference" "#PWR081"
-			(at 129.54 119.38 0)
+		(fields_autoplaced yes)
+		(uuid "21bed03e-c551-4021-9196-02b2c99063b1")
+		(property "Reference" "#PWR014"
+			(at 214.63 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20065,8 +19922,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_L"
-			(at 129.54 116.84 0)
+		(property "Value" "GND_R"
+			(at 214.63 282.2631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20074,7 +19931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 113.03 0)
+			(at 214.63 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20083,7 +19940,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 113.03 0)
+			(at 214.63 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "261fee17-4fd7-4530-97e7-3cd9831d87b4")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21df6a4b-54d5-416c-9441-292a77e9819b")
+		(property "Reference" "#PWR081"
+			(at 129.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_L"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20092,7 +20014,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 113.03 0)
+			(at 129.54 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20156,6 +20078,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 110.49 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 110.49 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 110.49 220.98 0)
 			(effects
 				(font
@@ -20238,6 +20178,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 388.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 388.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 388.62 49.53 0)
 			(effects
 				(font
@@ -20380,6 +20338,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 146.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 146.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 146.05 36.83 0)
 			(effects
 				(font
@@ -20604,6 +20580,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 152.4 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 152.4 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d047c8c-ed07-4fe9-afe3-19419271f85d")
 		)
@@ -20691,6 +20685,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 125.73 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 125.73 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fe2d17f-3f22-4b98-ad49-2010c97e51b3")
 		)
@@ -20762,6 +20774,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 190.5 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 190.5 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ac8ce81-0e8d-49d1-ac3b-d6457fb2e26b")
 		)
@@ -20825,6 +20855,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 179.07 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 179.07 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 179.07 226.06 0)
 			(effects
 				(font
@@ -20958,6 +21006,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 308.61 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 308.61 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 308.61 207.01 0)
 			(effects
 				(font
@@ -21210,6 +21276,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 355.6 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 355.6 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0271c7a4-aab1-4617-aa1a-a6f628f0c133")
 		)
@@ -21277,6 +21361,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 287.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 287.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21451,6 +21553,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 381 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 381 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0833bab3-d9b1-4bce-82f2-8f26d013f51f")
 		)
@@ -21493,7 +21613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 264.16 39.37 0)
 			(effects
 				(font
@@ -21520,7 +21640,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15850"
+		(property "LCSC" "C15525"
 			(at 264.16 39.37 0)
 			(effects
 				(font
@@ -21530,6 +21650,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 264.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 264.16 39.37 0)
 			(effects
 				(font
@@ -21839,6 +21977,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 342.9 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 342.9 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a96cc44-0de3-4a9e-861e-21be321fc0bb")
 		)
@@ -21915,6 +22071,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 146.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 146.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29b582fa-6a8c-415b-a66f-87988776bc4d")
 		)
@@ -21982,6 +22156,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22116,6 +22308,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 78.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 78.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22288,6 +22498,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 163.83 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 163.83 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "478ece98-475e-4608-9ea6-aad9be8e6bae")
 		)
@@ -22376,6 +22604,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 82.55 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 82.55 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c09a2ded-5519-445b-b768-3413aceaab66")
 		)
@@ -22417,7 +22663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:TRRS-PJ-320A"
+		(property "Footprint" "Lib_Local:TRRS-PJ-320A_PinNameChanged"
 			(at 180.34 106.68 0)
 			(effects
 				(font
@@ -22436,6 +22682,24 @@
 			)
 		)
 		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+			(at 180.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 180.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 180.34 106.68 0)
 			(effects
 				(font
@@ -22484,7 +22748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "COL_R_4_to_Mid/Top"
 			(at 339.09 54.5521 90)
 			(effects
 				(font
@@ -22513,6 +22777,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 335.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 335.28 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 335.28 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22586,6 +22868,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 17.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 17.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eeb7b238-f86f-485f-a37e-3260dbdc8771")
 		)
@@ -22603,7 +22903,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 325.12 110.49 90)
+		(at 325.12 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22611,7 +22911,7 @@
 		(dnp no)
 		(uuid "32db6391-ca3f-4028-be8f-729e91a13db3")
 		(property "Reference" "R6"
-			(at 325.12 110.49 90)
+			(at 325.12 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22619,7 +22919,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 325.12 109.22 90)
+			(at 325.12 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22627,7 +22927,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 325.12 110.49 0)
+			(at 325.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22636,7 +22936,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 325.12 110.49 0)
+			(at 325.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22645,11 +22945,29 @@
 			)
 		)
 		(property "Description" ""
-			(at 325.12 110.49 0)
+			(at 325.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 325.12 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 325.12 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22806,6 +23124,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 280.67 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 280.67 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3498a742-e642-4036-928c-32128982bdd1")
 		)
@@ -22874,6 +23210,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 363.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 363.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 363.22 74.93 0)
 			(effects
 				(font
@@ -22987,6 +23341,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 368.3 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 368.3 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "edfe2141-9b61-4f94-b36d-ebf82186ecbd")
 		)
@@ -23055,6 +23427,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 171.45 74.93 0)
 			(effects
 				(font
@@ -23294,7 +23684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "COL_R_5_to_Mid"
 			(at 326.39 67.2521 90)
 			(effects
 				(font
@@ -23323,6 +23713,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 322.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 322.58 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 322.58 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23432,6 +23840,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 381 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 381 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f71afd8-45f8-4751-a026-de6ee5be1197")
 		)
@@ -23512,6 +23938,24 @@
 			)
 		)
 		(property "LCSC-Reserve" "C910763"
+			(at 160.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 160.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 160.02 135.89 0)
 			(effects
 				(font
@@ -23601,6 +24045,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 345.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 345.44 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 345.44 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23749,6 +24211,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 337.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 337.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7bcc7481-f09d-4090-8d4f-3bf7089c7823")
 		)
@@ -23811,6 +24291,24 @@
 		)
 		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
 			(at 41.91 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 41.91 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 41.91 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23904,6 +24402,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 363.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 363.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 363.22 62.23 0)
 			(effects
 				(font
@@ -24117,6 +24633,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 220.98 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 220.98 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f83e227-6756-4857-9ff3-7917778aa6be")
 		)
@@ -24254,6 +24788,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 88.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 88.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94e7ea76-9248-4a99-853d-be0427d33d92")
 		)
@@ -24314,6 +24866,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 308.61 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 308.61 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 308.61 234.95 0)
 			(effects
 				(font
@@ -24469,6 +25039,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 274.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 274.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "20bda342-b46d-47ee-b463-5e99d917b2bc")
 		)
@@ -24531,6 +25119,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 19.05 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 19.05 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 19.05 219.71 0)
 			(effects
 				(font
@@ -24682,6 +25288,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 149.86 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 149.86 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99795a6d-09d7-4f7a-ab82-28574ebac6dc")
 		)
@@ -24704,12 +25328,11 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_3")
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 214.63 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "46733523-6657-4235-be64-dd14e1923d14")
@@ -24749,7 +25372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 214.63 275.59 0)
 			(effects
 				(font
@@ -24766,6 +25389,27 @@
 				)
 				(hide yes)
 			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 214.63 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 214.63 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6efb2747-9ed0-4317-9ea5-dd07f43ffa5b")
 		)
 		(instances
 			(project "Aida_Base"
@@ -24966,6 +25610,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 184.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 184.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d37a7098-5a17-42f9-a111-26befacdbfa5")
 		)
@@ -25071,6 +25733,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 181.61 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 181.61 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e363797-15e1-4324-9af4-40762f9996b0")
 		)
@@ -25137,6 +25817,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 26.67 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 26.67 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24b778c7-45a4-41b4-a954-fdab0fb65a40")
 		)
@@ -25171,7 +25869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "COL_R_0_to_Mid_Outside"
 			(at 389.89 41.8521 90)
 			(effects
 				(font
@@ -25200,6 +25898,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 386.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 386.08 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 386.08 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25404,6 +26120,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 386.08 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 386.08 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "214911a7-ffcf-4f12-994f-ce7281f9b0b9")
 		)
@@ -25465,6 +26199,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 224.79 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 224.79 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 224.79 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25540,6 +26292,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 76.2 36.83 0)
 			(effects
 				(font
@@ -25700,6 +26470,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 374.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 374.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eabe5c50-3f31-4c2f-b0d2-84227f3fa148")
 		)
@@ -25781,7 +26569,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
+		(lib_id "Connector:Conn_01x03_Pin")
 		(at 171.45 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25805,7 +26593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
 			(at 171.45 203.2 0)
 			(effects
 				(font
@@ -25823,7 +26611,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 171.45 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 171.45 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 171.45 203.2 0)
 			(effects
 				(font
@@ -25837,6 +26643,9 @@
 		)
 		(pin "1"
 			(uuid "cc3991fb-1d14-4fb4-9ec6-8a6999767163")
+		)
+		(pin "3"
+			(uuid "447c20bc-b72d-4930-ba09-d1cf0d704281")
 		)
 		(instances
 			(project "Aida_Base"
@@ -25899,6 +26708,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 276.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 276.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -25969,6 +26796,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 158.75 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 158.75 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 158.75 74.93 0)
 			(effects
 				(font
@@ -26148,6 +26993,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 326.39 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 326.39 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70234115-f0a9-407a-b39f-56fdb1cfbd9a")
 		)
@@ -26215,6 +27078,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -26302,6 +27183,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 158.75 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 158.75 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3933875c-1f5b-44f2-b704-a1460d9b078c")
 		)
@@ -26344,7 +27243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lib_Local:MountingHole_M2_Through-hole_tap_THC-0.8-2.0-2_minimal"
+		(property "Footprint" "Lib_Local:MountingHole_M2_Through-hole_tap_THC-0.8-1.0-2_minimal"
 			(at 71.12 266.7 0)
 			(effects
 				(font
@@ -26372,6 +27271,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 71.12 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 71.12 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 71.12 266.7 0)
 			(effects
 				(font
@@ -26447,6 +27364,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 214.63 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 214.63 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6983ae9f-f59e-4a5e-96d5-1c8b55b63f9b")
 		)
@@ -26464,7 +27399,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 124.46 105.41 0)
+		(at 124.46 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26473,7 +27408,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c9c5ce5-3b18-4f81-a74e-d849db3ff73a")
 		(property "Reference" "#PWR073"
-			(at 124.46 109.22 0)
+			(at 124.46 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26482,7 +27417,7 @@
 			)
 		)
 		(property "Value" "VBUS_L"
-			(at 125.857 104.14 0)
+			(at 125.857 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26491,7 +27426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 105.41 0)
+			(at 124.46 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26500,7 +27435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 105.41 0)
+			(at 124.46 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26509,7 +27444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 105.41 0)
+			(at 124.46 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26748,6 +27683,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 138.43 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 138.43 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2635f69-19a9-4512-9e56-71fed8ee8e39")
 		)
@@ -26883,6 +27836,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 287.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 287.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad150483-310d-4139-9944-4ae6431394b8")
 		)
@@ -26988,6 +27959,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 342.9 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 342.9 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bdd0171c-8ebe-46e5-b784-af74777cc65e")
 		)
@@ -27004,12 +27993,11 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_1")
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 39.37 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6297b813-b4a6-48ac-a14a-3ef6424d2e52")
@@ -27049,7 +28037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 39.37 275.59 0)
 			(effects
 				(font
@@ -27066,6 +28054,27 @@
 				)
 				(hide yes)
 			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 39.37 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 39.37 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92bbf721-983e-4a3b-9d6c-1ae96e2fc269")
 		)
 		(instances
 			(project "Aida_Base"
@@ -27094,7 +28103,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "COL_R_4_from_Mid"
 			(at 339.09 46.0318 90)
 			(effects
 				(font
@@ -27122,6 +28131,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 340.36 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 340.36 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 340.36 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27235,7 +28262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 233.68 39.37 0)
 			(effects
 				(font
@@ -27262,7 +28289,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15850"
+		(property "LCSC" "C15525"
 			(at 233.68 39.37 0)
 			(effects
 				(font
@@ -27272,6 +28299,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 233.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 233.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 233.68 39.37 0)
 			(effects
 				(font
@@ -27584,7 +28629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 39.37 0)
 			(effects
 				(font
@@ -27611,7 +28656,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15850"
+		(property "LCSC" "C15525"
 			(at 66.04 39.37 0)
 			(effects
 				(font
@@ -27621,6 +28666,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 66.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 66.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 66.04 39.37 0)
 			(effects
 				(font
@@ -27762,6 +28825,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 224.79 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 224.79 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a82772a-75fb-45aa-9da8-b313103d8954")
 		)
@@ -27829,6 +28910,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 226.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 226.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -28161,6 +29260,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 363.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 363.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98bd4355-59a4-48cb-b73c-c20d9a26ab2b")
 		)
@@ -28259,6 +29376,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 151.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 151.13 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 151.13 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28371,6 +29506,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 151.13 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 151.13 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "867d2ed8-375a-44a2-8492-72ec0cb833d9")
 		)
@@ -28469,6 +29622,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 176.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 176.53 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 176.53 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28646,6 +29817,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 163.83 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 163.83 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a65c22b5-fa44-4f49-9a9d-bd4ede961c5c")
 		)
@@ -28656,6 +29845,72 @@
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
 					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 203.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d02ca31-776a-4a63-beec-c104ce8b74b9")
+		(property "Reference" "#PWR0133"
+			(at 189.23 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_L"
+			(at 189.23 207.3331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcafa807-f8ae-4f62-856c-dd4aadbc6859")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -28729,7 +29984,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 179.07 203.2 0)
+		(at 179.07 200.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28739,7 +29994,7 @@
 		(fields_autoplaced yes)
 		(uuid "6db8e670-9d53-4a30-b041-7119398a9540")
 		(property "Reference" "#PWR0103"
-			(at 179.07 207.01 0)
+			(at 179.07 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28748,7 +30003,7 @@
 			)
 		)
 		(property "Value" "+5V_L"
-			(at 179.07 199.0669 0)
+			(at 179.07 196.5269 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28756,7 +30011,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 203.2 0)
+			(at 179.07 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28765,7 +30020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 203.2 0)
+			(at 179.07 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28774,7 +30029,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 179.07 203.2 0)
+			(at 179.07 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28987,6 +30242,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 133.35 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 133.35 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d321d7b-a86b-4f61-97fc-ef24ec870cb4")
 		)
@@ -29049,6 +30322,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 16.51 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 16.51 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 16.51 224.79 0)
 			(effects
 				(font
@@ -29134,6 +30425,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 187.96 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 187.96 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c00e268-c2f0-4029-b513-fdf157c8e76f")
 		)
@@ -29156,8 +30465,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 234.95 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73508b9d-7368-4fee-97f3-69ef49e322c0")
+		(property "Reference" "#PWR058"
+			(at 234.95 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_R"
+			(at 234.95 277.1831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d87d8dcd-4ab4-48ea-bc5a-d66630512559")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
-		(at 127 110.49 90)
+		(at 127 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29165,7 +30540,7 @@
 		(dnp no)
 		(uuid "738c73f0-7753-47ad-95fb-c9a91d22b86f")
 		(property "Reference" "R5"
-			(at 127 110.49 90)
+			(at 127 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29173,7 +30548,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 127 109.22 90)
+			(at 127 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29181,7 +30556,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 110.49 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29190,7 +30565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 110.49 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29199,11 +30574,29 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 110.49 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 127 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 127 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -29304,6 +30697,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 393.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 393.7 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 393.7 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29474,6 +30885,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 151.13 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 151.13 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29652,6 +31081,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 125.73 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 125.73 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3090c4d-9bcc-4750-beeb-96e96a8fdb49")
 		)
@@ -29803,6 +31250,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 346.71 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 346.71 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd4aba2c-c366-4553-ad08-1ff645863aca")
 		)
@@ -29864,6 +31329,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 173.99 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 173.99 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 173.99 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30037,6 +31520,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 163.83 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 163.83 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24bad68b-a828-44e6-9d58-d404e91ba0b2")
 		)
@@ -30135,6 +31636,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 176.53 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 176.53 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30247,6 +31766,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 368.3 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 368.3 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "853bd5dd-0289-48fa-977c-6fc6b88f4b4b")
 		)
@@ -30280,7 +31817,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "COL_R_0_from_Mid_Outside"
 			(at 389.89 33.3318 90)
 			(effects
 				(font
@@ -30308,6 +31845,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 391.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 391.16 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 391.16 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30381,6 +31936,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1837a68b-aad4-4281-bc75-f024591fcc44")
 		)
@@ -30391,6 +31964,72 @@
 			(project "Untitled"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 19.05 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c7fe571-a4cf-486c-a426-aee164e15d89")
+		(property "Reference" "#PWR0131"
+			(at 19.05 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_L"
+			(at 19.05 277.1831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.05 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cddb909-9acc-4c26-b3a2-f2b7a1ce8ba0")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -30448,6 +32087,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 256.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 256.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -30538,6 +32195,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 355.6 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 355.6 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ac2c832-f11f-4095-8fe1-67902c523b9b")
 		)
@@ -30601,6 +32276,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 156.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 156.21 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 156.21 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30738,6 +32431,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 284.48 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 284.48 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcfc0610-790a-473d-bd81-3230ad373002")
 		)
@@ -30873,6 +32584,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 236.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 236.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d103f168-7a1d-4766-b039-4ddfa8246595")
 		)
@@ -30889,12 +32618,11 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_2")
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 19.05 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8324e722-c3ac-4992-9fe0-9bb8cec7f16a")
@@ -30934,7 +32662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 19.05 270.51 0)
 			(effects
 				(font
@@ -30951,6 +32679,27 @@
 				)
 				(hide yes)
 			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 19.05 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 19.05 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "babec241-a413-4a46-9475-abf2898925e0")
 		)
 		(instances
 			(project "Aida_Base"
@@ -31013,6 +32762,24 @@
 			)
 		)
 		(property "フィールド4" "CSTNE12M0G550000R0"
+			(at 22.86 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 22.86 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 22.86 181.61 90)
 			(effects
 				(font
@@ -31091,6 +32858,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 215.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 215.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -31198,6 +32983,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 176.53 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 176.53 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "081fc1cb-97dd-4a2c-9f22-166d8217d9d9")
 		)
@@ -31264,6 +33067,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 86.36 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 86.36 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0660e61a-e657-4ad0-95b3-c47d29243796")
 		)
@@ -31297,7 +33118,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "COL_R_5_from_Mid"
 			(at 326.39 58.7318 90)
 			(effects
 				(font
@@ -31325,6 +33146,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 327.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 327.66 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 327.66 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31434,6 +33273,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 163.83 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 163.83 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "390b6816-b5c7-4582-b350-2a691f0ecf83")
 		)
@@ -31510,6 +33367,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 350.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 350.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74cd3648-db56-41d5-8ab7-b39657dacfa4")
 		)
@@ -31571,6 +33446,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 187.96 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 187.96 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31647,6 +33540,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 266.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 266.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a33cd8da-af3d-4743-b9da-22650969df28")
 		)
@@ -31716,6 +33627,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 347.98 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 347.98 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 347.98 184.15 0)
 			(effects
 				(font
@@ -31879,7 +33808,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 322.58 105.41 0)
+		(at 322.58 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31888,7 +33817,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a3b603f-4abc-4fca-93cb-a9fd52a6382f")
 		(property "Reference" "#PWR074"
-			(at 322.58 109.22 0)
+			(at 322.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31897,7 +33826,7 @@
 			)
 		)
 		(property "Value" "VBUS_R"
-			(at 323.977 104.14 0)
+			(at 323.977 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31906,7 +33835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 105.41 0)
+			(at 322.58 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31915,7 +33844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 105.41 0)
+			(at 322.58 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31924,7 +33853,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.58 105.41 0)
+			(at 322.58 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31970,7 +33899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lib_Local:MountingHole_M2_Through-hole_tap_THC-0.8-2.0-2_minimal"
+		(property "Footprint" "Lib_Local:MountingHole_M2_Through-hole_tap_THC-0.8-1.0-2_minimal"
 			(at 269.24 266.7 0)
 			(effects
 				(font
@@ -31998,6 +33927,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 269.24 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 269.24 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 269.24 266.7 0)
 			(effects
 				(font
@@ -32079,6 +34026,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 375.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 375.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21db3e03-b2f5-4287-aff5-a75dda134ae3")
 		)
@@ -32147,6 +34112,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 350.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 350.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 350.52 62.23 0)
 			(effects
 				(font
@@ -32253,6 +34236,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 393.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 393.7 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 393.7 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32469,6 +34470,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 168.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 168.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c538765a-f11a-4ae1-8798-7058a9a56d06")
 		)
@@ -32542,6 +34561,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 256.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 256.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -32708,6 +34745,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 138.43 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 138.43 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32922,6 +34977,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c0d484e-f1f8-4ca8-a972-e58429a218d8")
 		)
@@ -32991,6 +35064,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 386.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 386.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 386.08 184.15 0)
 			(effects
 				(font
@@ -33176,6 +35267,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 330.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 330.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b408971-986f-4ca3-aee0-a429f6eefbbe")
 		)
@@ -33248,6 +35357,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 189.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 189.23 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 189.23 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33477,12 +35604,11 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_5")
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 16.51 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9e1d247f-18dc-4664-a110-c35fd460ca82")
@@ -33522,7 +35648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 16.51 275.59 0)
 			(effects
 				(font
@@ -33539,6 +35665,27 @@
 				)
 				(hide yes)
 			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 16.51 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 16.51 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54346c3d-c9b3-455f-b46e-24f4dd1e5999")
 		)
 		(instances
 			(project "Aida_Base"
@@ -33665,6 +35812,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 284.48 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 284.48 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -33867,6 +36032,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 276.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 276.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10d2fc21-902e-4c1b-8519-6985977253d6")
 		)
@@ -33927,6 +36110,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 110.49 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 110.49 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 110.49 207.01 0)
 			(effects
 				(font
@@ -34025,6 +36226,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 16.51 278.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3ea7739-9657-4c41-af0a-278e912fca62")
+		(property "Reference" "#PWR0132"
+			(at 16.51 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_L"
+			(at 16.51 282.2631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 16.51 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1727303a-9f65-4847-95eb-d1fa1da866fe")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Polyfuse_Small")
 		(at 19.05 36.83 90)
 		(unit 1)
@@ -34088,6 +36355,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 19.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 19.05 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 19.05 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34163,6 +36448,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 133.35 62.23 0)
 			(effects
 				(font
@@ -34319,7 +36622,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 325.12 113.03 90)
+		(at 325.12 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34327,7 +36630,7 @@
 		(dnp no)
 		(uuid "aa10e0e1-f942-4c82-901f-ef7bd0d487b0")
 		(property "Reference" "R8"
-			(at 325.12 113.03 90)
+			(at 325.12 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34335,7 +36638,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 325.12 111.76 90)
+			(at 325.12 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34343,7 +36646,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 325.12 113.03 0)
+			(at 325.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34352,7 +36655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 325.12 113.03 0)
+			(at 325.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34361,11 +36664,29 @@
 			)
 		)
 		(property "Description" ""
-			(at 325.12 113.03 0)
+			(at 325.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 325.12 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 325.12 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -34454,6 +36775,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 217.17 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 217.17 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12d3dc48-a8bf-419c-9b77-a4048480c9b9")
 		)
@@ -34519,6 +36858,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 86.36 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 86.36 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -34619,6 +36976,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 189.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 189.23 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 189.23 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34827,6 +37202,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8a25fbc-bce3-439a-9e49-3b389eab5e42")
 		)
@@ -34844,7 +37237,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 377.19 203.2 0)
+		(at 377.19 200.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34854,7 +37247,7 @@
 		(fields_autoplaced yes)
 		(uuid "afca7c0a-22c8-4af1-bca5-98522618b489")
 		(property "Reference" "#PWR0104"
-			(at 377.19 207.01 0)
+			(at 377.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34863,7 +37256,7 @@
 			)
 		)
 		(property "Value" "+5V_R"
-			(at 377.19 199.0669 0)
+			(at 377.19 196.5269 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34871,7 +37264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 377.19 203.2 0)
+			(at 377.19 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34880,7 +37273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 377.19 203.2 0)
+			(at 377.19 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34889,7 +37282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 377.19 203.2 0)
+			(at 377.19 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35029,6 +37422,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 82.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 82.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "592e481e-496e-4f20-af01-6b400d212ab7")
 		)
@@ -35134,6 +37545,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 393.7 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 393.7 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4532197d-06b7-488b-8ef0-b231ace1ea87")
 		)
@@ -35222,6 +37651,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 147.32 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 147.32 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9dfbb897-20a2-4375-be9d-def0c95f93dd")
 		)
@@ -35290,6 +37737,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 337.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 337.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 337.82 74.93 0)
 			(effects
 				(font
@@ -35375,6 +37840,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 27.94 36.83 0)
 			(effects
 				(font
@@ -35472,6 +37955,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 351.79 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 351.79 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac4ab0c2-73c3-4577-9a38-6672c3297268")
 		)
@@ -35535,6 +38036,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 142.24 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 142.24 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 142.24 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35620,6 +38139,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 356.87 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 356.87 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 356.87 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35900,6 +38437,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 375.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 375.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ad9f667-a9b4-4660-82d0-36de763a9a65")
 		)
@@ -35962,6 +38517,24 @@
 		)
 		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
 			(at 240.03 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 240.03 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36047,6 +38620,24 @@
 			)
 		)
 		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 50.8 39.37 0)
 			(effects
 				(font
@@ -36151,6 +38742,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 323.85 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 323.85 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3b30e88-a650-4c2f-bcf8-9fce913d6f6f")
 		)
@@ -36229,6 +38838,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 148.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 148.59 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 148.59 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36403,7 +39030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "COL_R_3_to_Mid"
 			(at 351.79 41.8521 90)
 			(effects
 				(font
@@ -36439,6 +39066,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 347.98 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 347.98 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0159b13b-5a87-4e9a-9801-791cc893750f")
 		)
@@ -36452,7 +39097,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle")
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
 		(at 109.22 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36462,7 +39107,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba149b1e-155c-4499-b45b-e00690403cb6")
 		(property "Reference" "J3"
-			(at 109.22 98.7255 0)
+			(at 109.22 108.8855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36470,7 +39115,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_L"
-			(at 109.22 101.1498 0)
+			(at 109.22 111.3098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36495,31 +39140,38 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 			(at 109.22 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "A1"
 			(uuid "e3ba028c-d0f6-4665-8fa9-f6cc73a222e2")
 		)
-		(pin "A10"
-			(uuid "993fbcfd-a15d-49ef-b9a0-73866655e6c5")
-		)
-		(pin "A11"
-			(uuid "7544c16a-248f-4a58-96bb-3735892e30f3")
-		)
 		(pin "A12"
 			(uuid "e5bdba64-0775-42e2-aa6b-e4561425935a")
-		)
-		(pin "A2"
-			(uuid "581022ea-0be9-4d31-93ad-950eb5dc98ad")
-		)
-		(pin "A3"
-			(uuid "967dd058-dbe2-466e-9fc1-3bd9316348a8")
 		)
 		(pin "A4"
 			(uuid "c7b4a2b8-fd9f-4540-b371-48eb784580ad")
@@ -36533,29 +39185,14 @@
 		(pin "A7"
 			(uuid "82e3fd86-935e-4832-a37f-7d0542c22999")
 		)
-		(pin "A8"
-			(uuid "ed13f3d3-529d-48e7-8eb9-99b046a247db")
-		)
 		(pin "A9"
 			(uuid "840efbaa-39dc-4a9c-92b4-1dc5d076852b")
 		)
 		(pin "B1"
 			(uuid "85e389b8-94c4-452f-85ac-44ae7e59875e")
 		)
-		(pin "B10"
-			(uuid "904934ba-f9d0-4f3d-b70f-546b7462eec1")
-		)
-		(pin "B11"
-			(uuid "75a4fca5-ca7d-400b-ae9f-b003d2c189d1")
-		)
 		(pin "B12"
 			(uuid "d7de69d9-c532-43c3-b129-b8cd9c366e64")
-		)
-		(pin "B2"
-			(uuid "3c3e36c3-ccdb-450f-98b3-644135d51ff9")
-		)
-		(pin "B3"
-			(uuid "0b4d23b7-759b-4229-9e92-ba6744064651")
 		)
 		(pin "B4"
 			(uuid "9e00a5b2-7af7-4abf-8a1c-f148c433717e")
@@ -36568,9 +39205,6 @@
 		)
 		(pin "B7"
 			(uuid "2d17213f-5cab-4081-91f8-e6c48001fd19")
-		)
-		(pin "B8"
-			(uuid "15425aa5-74b9-45b0-a3cf-048c56d87ed5")
 		)
 		(pin "B9"
 			(uuid "676f07ff-dc51-488e-a344-cc477417a9d0")
@@ -36589,7 +39223,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 327.66 113.03 0)
+		(at 327.66 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36597,7 +39231,7 @@
 		(dnp no)
 		(uuid "bab03e41-8107-41e5-886a-f2c8f1f932fe")
 		(property "Reference" "#PWR084"
-			(at 327.66 119.38 0)
+			(at 327.66 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36606,7 +39240,7 @@
 			)
 		)
 		(property "Value" "GND_R"
-			(at 327.66 116.84 0)
+			(at 327.66 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36614,7 +39248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.66 113.03 0)
+			(at 327.66 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36623,7 +39257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 113.03 0)
+			(at 327.66 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36632,7 +39266,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 113.03 0)
+			(at 327.66 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36697,6 +39331,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 123.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 123.19 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 123.19 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36844,6 +39496,72 @@
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 278.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc2b43a3-2bf8-410b-b5a3-8b64b9f798bd")
+		(property "Reference" "#PWR064"
+			(at 39.37 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_L"
+			(at 39.37 282.2631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e2f6ba6-077b-42c7-a0be-0954ed16abba")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -37178,7 +39896,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 171.45 0)
+		(at 109.22 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37187,7 +39905,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2c7b00d-b545-46d8-92a1-8773334020a1")
 		(property "Reference" "#PWR095"
-			(at 109.22 177.8 0)
+			(at 109.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37196,7 +39914,7 @@
 			)
 		)
 		(property "Value" "GND_L"
-			(at 111.125 172.72 0)
+			(at 111.125 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37205,7 +39923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 171.45 0)
+			(at 109.22 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37214,7 +39932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 171.45 0)
+			(at 109.22 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37223,7 +39941,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 171.45 0)
+			(at 109.22 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37463,6 +40181,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 125.73 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 125.73 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e29858a9-3264-4603-bc58-74b6427c1c8e")
 		)
@@ -37569,7 +40305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:TRRS-PJ-320A"
+		(property "Footprint" "Lib_Local:TRRS-PJ-320A_PinNameChanged"
 			(at 378.46 106.68 0)
 			(effects
 				(font
@@ -37588,6 +40324,24 @@
 			)
 		)
 		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+			(at 378.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 378.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 378.46 106.68 0)
 			(effects
 				(font
@@ -37684,6 +40438,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 153.67 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 153.67 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 153.67 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37792,6 +40564,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 381 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 381 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 381 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37999,6 +40789,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 369.57 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 369.57 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "61d3bcaa-915d-4b44-982a-5b3b72895788")
 		)
@@ -38066,6 +40874,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 369.57 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 369.57 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 369.57 213.36 0)
 			(effects
 				(font
@@ -38147,6 +40973,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 181.61 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 181.61 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8185c88-634a-4d3a-a284-74196f8826ed")
 		)
@@ -38212,6 +41056,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 350.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 350.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 350.52 49.53 0)
 			(effects
 				(font
@@ -38289,6 +41151,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 68.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 68.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8738db23-8652-4f56-b778-07c9be366820")
 		)
@@ -38356,6 +41236,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 27.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 27.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -38456,6 +41354,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 342.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 342.9 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 342.9 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38568,6 +41484,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 138.43 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 138.43 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "844e8060-84c6-4f45-b7b8-6b3ec4d7cf91")
 		)
@@ -38666,6 +41600,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 355.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 355.6 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 355.6 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38815,6 +41767,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 325.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 325.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1de99d79-b3f8-4a48-9e8b-f3530fff2fbc")
 		)
@@ -38831,12 +41801,11 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_3")
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 234.95 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "cfc9cfe8-3ccb-4b14-8ab6-347894db98f9")
@@ -38876,7 +41845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 234.95 270.51 0)
 			(effects
 				(font
@@ -38894,6 +41863,27 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 234.95 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 234.95 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86b1729e-abf7-4b58-bc1b-4954df191627")
+		)
 		(instances
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
@@ -38904,12 +41894,11 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_3")
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 237.49 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d030e7ba-3ba6-4f86-ae11-e7d6460d1911")
@@ -38949,7 +41938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 237.49 275.59 0)
 			(effects
 				(font
@@ -38966,6 +41955,27 @@
 				)
 				(hide yes)
 			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 237.49 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 237.49 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "510bbf65-cf3a-48a0-98f9-4da5dce77f88")
 		)
 		(instances
 			(project "Aida_Base"
@@ -39023,6 +42033,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 217.17 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 217.17 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 217.17 219.71 0)
 			(effects
 				(font
@@ -39099,6 +42127,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 120.65 62.23 0)
 			(effects
 				(font
@@ -39561,6 +42607,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 110.49 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 110.49 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d82a0dfb-e58b-49a5-9287-6bcec75ed2f5")
 		)
@@ -39649,7 +42713,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
+		(lib_id "Connector:Conn_01x03_Pin")
 		(at 369.57 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -39673,7 +42737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
 			(at 369.57 203.2 0)
 			(effects
 				(font
@@ -39691,7 +42755,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 369.57 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 369.57 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 369.57 203.2 0)
 			(effects
 				(font
@@ -39705,6 +42787,9 @@
 		)
 		(pin "1"
 			(uuid "9b3f955e-7261-4627-943c-94ef056aacaf")
+		)
+		(pin "3"
+			(uuid "e9d6552f-01fe-4799-bb2f-5a6f91fc7e28")
 		)
 		(instances
 			(project "Aida_Base"
@@ -39834,6 +42919,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 133.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 133.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 133.35 49.53 0)
 			(effects
 				(font
@@ -39994,6 +43097,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 347.98 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 347.98 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90d49d19-1f6b-42a7-b473-215e670e29d1")
 		)
@@ -40135,6 +43256,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 335.28 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 335.28 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2558d68d-6667-42e4-9805-15855bc4f8da")
 		)
@@ -40174,7 +43313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lib_Local:MountingHole_M2_Through-hole_tap_THC-0.8-2.0-2_minimal"
+		(property "Footprint" "Lib_Local:MountingHole_M2_Through-hole_tap_THC-0.8-1.0-2_minimal"
 			(at 87.63 266.7 0)
 			(effects
 				(font
@@ -40202,6 +43341,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 87.63 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 87.63 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 87.63 266.7 0)
 			(effects
 				(font
@@ -40277,6 +43434,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 168.91 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 168.91 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ba17a53-ef09-4006-8a74-a410b82d05fb")
 		)
@@ -40342,6 +43517,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 158.75 62.23 0)
 			(effects
 				(font
@@ -40481,6 +43674,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 224.79 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 224.79 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b67efd14-649c-409c-8af5-fa42b57f952c")
 		)
@@ -40549,6 +43760,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 308.61 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 308.61 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "11ffd7d0-368d-49de-9999-b8048d4423b3")
 		)
@@ -40588,7 +43817,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "COL_R_3_from_Mid"
 			(at 351.79 33.3318 90)
 			(effects
 				(font
@@ -40616,6 +43845,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 353.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 353.06 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 353.06 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40718,6 +43965,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 355.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 355.6 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 355.6 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40830,6 +44095,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 151.13 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 151.13 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5dbed0e7-0c5a-4f0f-a966-9ccab211879b")
 		)
@@ -40851,8 +44134,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "e3193d41-9b4a-407c-bae1-51b1f9f99da4")
 		(property "Reference" "SW_RE_L2"
 			(at 317.5578 40.132 90)
@@ -40908,6 +44191,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 318.77 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 318.77 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "4852a9c3-e689-4d2c-ba36-49d01713707d")
 		)
@@ -40933,7 +44234,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle")
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
 		(at 307.34 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -40943,7 +44244,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3aaa922-353e-4298-a254-22c3ffdd8fc7")
 		(property "Reference" "J4"
-			(at 307.34 98.7255 0)
+			(at 307.34 108.8855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40951,7 +44252,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_R"
-			(at 307.34 101.1498 0)
+			(at 307.34 111.3098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40976,31 +44277,38 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 			(at 307.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 307.34 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 307.34 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "A1"
 			(uuid "a2abf263-31bd-4e49-9fd7-b789e871e835")
 		)
-		(pin "A10"
-			(uuid "be0b9c8d-a414-46b6-8f48-75b3ded7bf1b")
-		)
-		(pin "A11"
-			(uuid "3800a5c8-173f-4a30-8ecc-221923d01a0f")
-		)
 		(pin "A12"
 			(uuid "60a44083-665e-4c48-9f2e-180153ff2b6f")
-		)
-		(pin "A2"
-			(uuid "ecda4206-f849-40c5-896f-e5fc0813d32b")
-		)
-		(pin "A3"
-			(uuid "376f6dcc-956c-4669-ad7c-78d751403f51")
 		)
 		(pin "A4"
 			(uuid "21d3c591-f2e8-463f-a467-1e33c4731507")
@@ -41014,29 +44322,14 @@
 		(pin "A7"
 			(uuid "fb6ca42b-b1a5-4e89-821f-e313956dcab3")
 		)
-		(pin "A8"
-			(uuid "485e6585-b944-4a84-920b-164e3f9560db")
-		)
 		(pin "A9"
 			(uuid "caa146c0-5dc8-45c3-be16-a6340b2c17d7")
 		)
 		(pin "B1"
 			(uuid "aeeb31d9-50f4-4b96-b7fd-c64764082dac")
 		)
-		(pin "B10"
-			(uuid "e21a53cf-7c4a-4c6b-bbea-a01e9fcb37f0")
-		)
-		(pin "B11"
-			(uuid "44b8195b-7aad-4bfd-aa29-d978deb1c31b")
-		)
 		(pin "B12"
 			(uuid "162d14fd-5748-4700-9031-2b3848407ad2")
-		)
-		(pin "B2"
-			(uuid "63ab79ae-e572-4769-9db4-420eb0fdafb4")
-		)
-		(pin "B3"
-			(uuid "2638d259-5654-4cc3-b171-91135300aede")
 		)
 		(pin "B4"
 			(uuid "97a84ef8-e819-4b44-bb9f-7db2b228b451")
@@ -41049,9 +44342,6 @@
 		)
 		(pin "B7"
 			(uuid "d86d70b9-d118-4efe-ac12-7a2edfd0ba3f")
-		)
-		(pin "B8"
-			(uuid "5110c31e-15c8-460a-84c8-ea60eefa0fa4")
 		)
 		(pin "B9"
 			(uuid "450e6eba-7492-40f1-9b5b-2cd9fd399ed0")
@@ -41328,6 +44618,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 367.03 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 367.03 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d32b27ac-bbf1-4760-8770-b9e4bfc52512")
 		)
@@ -41548,7 +44856,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 307.34 171.45 0)
+		(at 307.34 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41557,7 +44865,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8ab6d93-66fc-4eb1-883b-5569e45894b3")
 		(property "Reference" "#PWR096"
-			(at 307.34 177.8 0)
+			(at 307.34 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41566,7 +44874,7 @@
 			)
 		)
 		(property "Value" "GND_R"
-			(at 309.245 172.72 0)
+			(at 309.245 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41575,7 +44883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 307.34 171.45 0)
+			(at 307.34 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41584,7 +44892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.34 171.45 0)
+			(at 307.34 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41593,7 +44901,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 307.34 171.45 0)
+			(at 307.34 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41613,11 +44921,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 36.83 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e9bb9bba-1f2b-4713-83ed-14ec7b7c3493")
@@ -41657,7 +44965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 36.83 270.51 0)
 			(effects
 				(font
@@ -41674,6 +44982,27 @@
 				)
 				(hide yes)
 			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 36.83 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 36.83 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7b2a8d0-ea1f-49a9-9601-c5363d6a0d1c")
 		)
 		(instances
 			(project "Aida_Base"
@@ -41774,6 +45103,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 330.2 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 330.2 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd8566f9-a290-4665-9e0e-6857b809775a")
 		)
@@ -41836,6 +45183,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 280.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 280.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 280.67 39.37 0)
 			(effects
 				(font
@@ -41952,7 +45317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lib_Local:MountingHole_M2_Through-hole_tap_THC-0.8-2.0-2_minimal"
+		(property "Footprint" "Lib_Local:MountingHole_M2_Through-hole_tap_THC-0.8-1.0-2_minimal"
 			(at 285.75 266.7 0)
 			(effects
 				(font
@@ -41980,6 +45345,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 285.75 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 285.75 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 285.75 266.7 0)
 			(effects
 				(font
@@ -42056,6 +45439,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 388.62 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 388.62 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "711a5242-245a-41fb-b545-a0c629ef9e59")
 		)
@@ -42116,6 +45517,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 283.21 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 283.21 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 283.21 236.22 0)
 			(effects
 				(font
@@ -42281,6 +45700,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 226.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 226.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "592b9591-f453-4f81-8df5-31ab2ff89168")
 		)
@@ -42379,6 +45816,24 @@
 		)
 		(property "LCSC-Reserve" ""
 			(at 355.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 355.6 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 355.6 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42520,6 +45975,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 85.09 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 85.09 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "08627e93-da1a-4e02-936c-7928448f127e")
 		)
@@ -42631,6 +46104,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 125.73 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 125.73 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "407de1f1-dbbc-40a9-8527-63989fe4a2d3")
 		)
@@ -42692,6 +46183,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 173.99 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 173.99 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42764,6 +46273,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 375.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 375.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 375.92 49.53 0)
 			(effects
 				(font
@@ -42942,6 +46469,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 368.3 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 368.3 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e4e8e50-2495-4ccc-b79b-1feccd476fb7")
 		)
@@ -43011,6 +46556,24 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 58.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 58.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c92245b-aa18-46a4-b1a6-f2b54c336f7d")
 		)
@@ -43027,12 +46590,11 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_3")
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 217.17 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f7983199-5c76-4301-9cbc-b20b061f8eb1")
@@ -43072,7 +46634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 217.17 270.51 0)
 			(effects
 				(font
@@ -43089,6 +46651,27 @@
 				)
 				(hide yes)
 			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 217.17 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 217.17 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afd27b4d-8123-4980-b431-0e54cc93b51a")
 		)
 		(instances
 			(project "Aida_Base"
@@ -43297,7 +46880,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 127 113.03 90)
+		(at 127 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43305,7 +46888,7 @@
 		(dnp no)
 		(uuid "fac0d37f-4ced-488e-a707-87d52b873d1e")
 		(property "Reference" "R7"
-			(at 127 113.03 90)
+			(at 127 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43313,7 +46896,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 127 111.76 90)
+			(at 127 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43321,7 +46904,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 113.03 0)
+			(at 127 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43330,7 +46913,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 113.03 0)
+			(at 127 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43339,11 +46922,29 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 113.03 0)
+			(at 127 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 127 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 127 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -43407,6 +47008,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 26.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 26.67 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 26.67 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43493,6 +47112,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 393.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 393.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 393.7 180.34 0)
 			(effects
 				(font
@@ -43641,6 +47278,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b945eed2-cb1b-47a8-af4f-243807540c8c")
 		)
@@ -43684,7 +47339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.56 39.37 0)
 			(effects
 				(font
@@ -43711,7 +47366,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15850"
+		(property "LCSC" "C15525"
 			(at 35.56 39.37 0)
 			(effects
 				(font
@@ -43721,6 +47376,24 @@
 			)
 		)
 		(property "LCSC-Reserve" ""
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 35.56 39.37 0)
 			(effects
 				(font
@@ -43796,6 +47469,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

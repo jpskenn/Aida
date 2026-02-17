@@ -1,0 +1,225 @@
+(footprint "TRRS-PJ-320A_PinNameChanged"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 14.2 0)
+		(layer "Dwgs.User")
+		(uuid "c758509e-c97c-40f8-aa30-7f6147529b91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TRRS-PJ-320A_PinNameChanged"
+		(at 0 -5.6 0)
+		(layer "F.Fab")
+		(uuid "413d9120-fba7-47ee-b52d-3f04e71c201c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2f3e5a9-75ec-4c3d-802c-783247c4006d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8712a24f-9c9e-4db8-b813-f9ff77f8218b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.05 0)
+		(end -3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "661fe93a-d36b-4399-8cf1-a518f62aafcf")
+	)
+	(fp_line
+		(start -2.8 0)
+		(end -2.8 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3aae9e8-7d22-48df-8ed5-29ae3affd10d")
+	)
+	(fp_line
+		(start 2.8 -2)
+		(end -2.8 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8522fed7-d8d5-448d-9c09-6641ef992b0a")
+	)
+	(fp_line
+		(start 2.8 0)
+		(end 2.8 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a5ceb36-7e19-48ec-92a8-e54f8136d6c8")
+	)
+	(fp_line
+		(start 3.05 0)
+		(end -3.05 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d599d0e8-608e-4b73-a71d-48cc415fe2c7")
+	)
+	(fp_line
+		(start 3.05 0)
+		(end 3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9c65449-691d-43e8-970b-7c4fd7ca5205")
+	)
+	(fp_line
+		(start 3.05 12.1)
+		(end -3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c31a8384-edd7-41eb-95ee-00df86bd1f8c")
+	)
+	(fp_text user "Ring2"
+		(at 0 3.25 0)
+		(layer "F.Fab")
+		(uuid "68f9e547-5cb6-4cab-9caf-d521344f81a7")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "Ring1"
+		(at 0 6.25 0)
+		(layer "F.Fab")
+		(uuid "7658d89f-6340-406e-8524-0effe1076f63")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "Sleeve"
+		(at 0.25 11.4 0)
+		(layer "F.Fab")
+		(uuid "9dffc06b-516c-4c7e-9c8a-89d8891bde94")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "Tip"
+		(at 0 10 0)
+		(layer "F.Fab")
+		(uuid "bf058bce-fd77-459f-ac05-029a9c547995")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 1.6)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7f57c642-d7a0-478e-92ff-b71863f6e632")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 8.6)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "88795912-81e2-40f2-85d6-3bb868381dc5")
+	)
+	(pad "R1" thru_hole oval
+		(at 2.3 6.2)
+		(size 1.6 2)
+		(drill oval 0.9 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b9f3c57-79c5-4090-8c8c-32df2dac4b35")
+	)
+	(pad "R2" thru_hole oval
+		(at 2.3 3.2)
+		(size 1.6 2)
+		(drill oval 0.9 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "11cc15e1-b7a4-4a27-a9b4-b6b815f993fa")
+	)
+	(pad "S" thru_hole oval
+		(at -2.3 11.3)
+		(size 1.6 2)
+		(drill oval 0.9 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bbdaaf51-a92d-4ac7-a17f-001ca8058cce")
+	)
+	(pad "T" thru_hole oval
+		(at 2.3 10.2)
+		(size 1.6 2)
+		(drill oval 0.9 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5637eeff-7216-483c-ab09-a77ba16762e6")
+	)
+	(embedded_fonts no)
+	(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/PJ-320A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
