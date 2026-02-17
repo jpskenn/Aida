@@ -506,7 +506,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../tmp/Aida_Mid_Outside.step",
       "svg": "",
       "vrml": ""
     },

@@ -1,7 +1,7 @@
 (footprint "Kailh_socket_ChocV2_for_Reverse"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 	(tags "kailh,choc")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9a7e4226-8cc5-4eb5-ad2f-c7193639acf8")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -678,13 +666,13 @@
 		(at 5 -5.15)
 		(size 1.6 1.6)
 		(drill 1.6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "7afde853-6f65-4215-8c46-d5f4384e7589")
 	)
 	(pad "1" smd custom
 		(at 2.8125 6.3)
 		(size 1.675 1.9)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -704,10 +692,11 @@
 	(pad "2" smd rect
 		(at -8.275 3.75)
 		(size 2.6 2.6)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "5cf12c59-9ac7-4436-b58b-7395eda592ff")
 	)
-	(model "${KIPRJMOD}/locallib.pretty/kailh-socket-choc.stp"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Lib_Local/kailh-socket-choc.stp"
 		(offset
 			(xyz -2 -6.7 -3.5)
 		)
@@ -718,7 +707,7 @@
 			(xyz 180 0 180)
 		)
 	)
-	(model "${KIPRJMOD}/locallib.pretty/Kailh_PG1353.STEP"
+	(model "${KIPRJMOD}/Lib_Local/Kailh_PG1353.STEP"
 		(offset
 			(xyz 0 0 2.6)
 		)
