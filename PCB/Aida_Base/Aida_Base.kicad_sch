@@ -12355,7 +12355,7 @@
 			)
 		)
 	)
-	(global_label "D+_R"
+	(global_label "D_R+"
 		(shape input)
 		(at 322.58 133.35 0)
 		(fields_autoplaced yes)
@@ -12377,7 +12377,7 @@
 			)
 		)
 	)
-	(global_label "D-_R"
+	(global_label "D_R-"
 		(shape input)
 		(at 322.58 128.27 0)
 		(fields_autoplaced yes)
@@ -12649,7 +12649,7 @@
 			)
 		)
 	)
-	(global_label "D-_L"
+	(global_label "D_L-"
 		(shape input)
 		(at 149.86 125.73 0)
 		(fields_autoplaced yes)
@@ -13029,7 +13029,7 @@
 			)
 		)
 	)
-	(global_label "D+_R"
+	(global_label "D_R+"
 		(shape input)
 		(at 347.98 100.33 0)
 		(fields_autoplaced yes)
@@ -13073,7 +13073,7 @@
 			)
 		)
 	)
-	(global_label "D-_L"
+	(global_label "D_L-"
 		(shape input)
 		(at 24.13 146.05 180)
 		(fields_autoplaced yes)
@@ -13377,7 +13377,7 @@
 			)
 		)
 	)
-	(global_label "D+_L"
+	(global_label "D_L+"
 		(shape input)
 		(at 149.86 100.33 0)
 		(fields_autoplaced yes)
@@ -13823,7 +13823,7 @@
 			)
 		)
 	)
-	(global_label "D+_L"
+	(global_label "D_L+"
 		(shape input)
 		(at 24.13 148.59 180)
 		(fields_autoplaced yes)
@@ -15359,7 +15359,7 @@
 			)
 		)
 	)
-	(global_label "D+_R"
+	(global_label "D_R+"
 		(shape input)
 		(at 222.25 148.59 180)
 		(fields_autoplaced yes)
@@ -15911,7 +15911,7 @@
 			)
 		)
 	)
-	(global_label "D-_R"
+	(global_label "D_R-"
 		(shape input)
 		(at 222.25 146.05 180)
 		(fields_autoplaced yes)
@@ -15933,7 +15933,7 @@
 			)
 		)
 	)
-	(global_label "D+_L"
+	(global_label "D_L+"
 		(shape input)
 		(at 124.46 133.35 0)
 		(fields_autoplaced yes)
@@ -16171,7 +16171,7 @@
 			)
 		)
 	)
-	(global_label "D-_L"
+	(global_label "D_L-"
 		(shape input)
 		(at 124.46 128.27 0)
 		(fields_autoplaced yes)
@@ -17199,7 +17199,7 @@
 			)
 		)
 	)
-	(global_label "D-_R"
+	(global_label "D_R-"
 		(shape input)
 		(at 347.98 125.73 0)
 		(fields_autoplaced yes)
