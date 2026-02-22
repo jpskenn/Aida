@@ -5,6 +5,113 @@
 	(uuid "ef99a6d8-fba4-4326-a50f-547b5e80b50b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -484,6 +591,18 @@
 		(uuid "0299548b-5bbf-4536-8a90-192bf57fa20b")
 	)
 	(junction
+		(at 215.9 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c822de7-10c7-4f4f-83eb-d4e742b2913f")
+	)
+	(junction
+		(at 114.3 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f0b6668-cfe5-4deb-97ac-254580090124")
+	)
+	(junction
 		(at 17.78 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -496,16 +615,46 @@
 		(uuid "4559ab80-882b-4904-8815-d75ad19d6524")
 	)
 	(junction
+		(at 63.5 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "789659e7-bffe-43a9-90e0-6caee74b0b2d")
+	)
+	(junction
 		(at 63.5 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ab1d855-382c-4d3e-8dc3-845d1c917e9e")
 	)
 	(junction
+		(at 124.46 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f69b664-9cb3-43d0-8181-5f29bfa546ac")
+	)
+	(junction
+		(at 73.66 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d1df121-d0db-4c06-a981-508a334c090c")
+	)
+	(junction
+		(at 17.78 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9579518c-9bc2-4a46-8c3b-bb476033afd9")
+	)
+	(junction
 		(at 175.26 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b18dc6d-1a0b-4a6e-823c-2897a72f1624")
+	)
+	(junction
+		(at 175.26 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac958dee-580e-4a97-9ed8-0dae8bff1cec")
 	)
 	(junction
 		(at 73.66 59.69)
@@ -550,6 +699,12 @@
 		(uuid "e4493a92-a902-4040-9685-c1d3e70ce06f")
 	)
 	(junction
+		(at 165.1 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edc154bf-d1ee-423e-b1ff-9ae49ca3e938")
+	)
+	(junction
 		(at 114.3 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -557,7 +712,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 71.12) (xy 63.5 59.69)
+			(xy 114.3 63.5) (xy 114.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00feff3c-e7a1-4c4a-9106-ec4d76e6eaed")
+	)
+	(wire
+		(pts
+			(xy 63.5 71.12) (xy 63.5 63.5)
 		)
 		(stroke
 			(width 0)
@@ -597,13 +762,43 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 59.69) (xy 124.46 71.12)
+			(xy 124.46 59.69) (xy 124.46 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c448df9-ffda-4548-a0b0-85ef7f334e34")
+	)
+	(wire
+		(pts
+			(xy 124.46 63.5) (xy 124.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0c2c72-c2be-48f8-aa73-5281ac763ac8")
+	)
+	(wire
+		(pts
+			(xy 63.5 63.5) (xy 63.5 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2595a2a2-8732-4b1e-aedf-1744ab2a0fef")
+	)
+	(wire
+		(pts
+			(xy 73.66 63.5) (xy 73.66 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3030cbea-bd97-47df-bc1e-86a423374b47")
 	)
 	(wire
 		(pts
@@ -627,7 +822,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 38.1) (xy 215.9 71.12)
+			(xy 215.9 62.23) (xy 215.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd57ba9-23b7-478e-8c62-e87e0fc1420f")
+	)
+	(wire
+		(pts
+			(xy 215.9 38.1) (xy 215.9 62.23)
 		)
 		(stroke
 			(width 0)
@@ -657,7 +862,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 59.69) (xy 175.26 71.12)
+			(xy 175.26 59.69) (xy 175.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -667,7 +872,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 59.69) (xy 165.1 71.12)
+			(xy 165.1 63.5) (xy 165.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f7f3d5-0159-4feb-bf4f-0a76ab8afc4b")
+	)
+	(wire
+		(pts
+			(xy 165.1 59.69) (xy 165.1 63.5)
 		)
 		(stroke
 			(width 0)
@@ -677,7 +892,27 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 48.26) (xy 17.78 59.69)
+			(xy 175.26 63.5) (xy 175.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d24ca17-7f26-490f-88dd-a817db6e79e6")
+	)
+	(wire
+		(pts
+			(xy 17.78 57.15) (xy 17.78 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c74125-6e33-4bf8-9a6c-f87ca6a721d2")
+	)
+	(wire
+		(pts
+			(xy 17.78 48.26) (xy 17.78 57.15)
 		)
 		(stroke
 			(width 0)
@@ -687,7 +922,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 59.69) (xy 73.66 71.12)
+			(xy 73.66 59.69) (xy 73.66 63.5)
 		)
 		(stroke
 			(width 0)
@@ -727,7 +962,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 59.69) (xy 114.3 71.12)
+			(xy 114.3 59.69) (xy 114.3 63.5)
 		)
 		(stroke
 			(width 0)
@@ -797,7 +1032,7 @@
 			)
 		)
 	)
-	(global_label "COL_4_to_Base"
+	(global_label "COL_4_from_Top_to_Base"
 		(shape input)
 		(at 215.9 38.1 90)
 		(fields_autoplaced yes)
@@ -809,7 +1044,7 @@
 		)
 		(uuid "6eb10371-e24d-4278-8305-ae2401897d14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.9 20.9635 90)
+			(at 215.9 11.4085 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,6 +1257,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "008e74dd-d08a-4d66-8458-c684f64c8dad")
+		(property "Reference" "TP2"
+			(at 60.198 58.7205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "COL3_from"
+			(at 60.198 61.1448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 63.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f960664-b204-4246-b5d4-5aa72af2b1c1")
+		)
+		(instances
+			(project "Aida_Mid_Inside"
+				(path "/ef99a6d8-fba4-4326-a50f-547b5e80b50b"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 218.44 71.12 270)
 		(unit 1)
@@ -1083,6 +1383,73 @@
 			(project "Aida_Mid_Inside"
 				(path "/ef99a6d8-fba4-4326-a50f-547b5e80b50b"
 					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 215.9 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06ada9e6-59a7-4fd7-a83d-326e104930c4")
+		(property "Reference" "TP8"
+			(at 220.599 61.0178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "COL4_from_Top"
+			(at 220.599 63.4421 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 215.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 215.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e390b5af-0267-4feb-8ed4-c1c72d162a53")
+		)
+		(instances
+			(project "Aida_Mid_Inside"
+				(path "/ef99a6d8-fba4-4326-a50f-547b5e80b50b"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -1215,6 +1582,73 @@
 			(project "Aida_Mid_Inside"
 				(path "/ef99a6d8-fba4-4326-a50f-547b5e80b50b"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 17.78 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27215082-daf8-405f-9da9-3f53ad378fe8")
+		(property "Reference" "TP1"
+			(at 22.479 55.9378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.479 58.3621 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 17.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 17.78 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2beaecea-78dc-4240-ab4d-d9972537ed8e")
+		)
+		(instances
+			(project ""
+				(path "/ef99a6d8-fba4-4326-a50f-547b5e80b50b"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -1504,6 +1938,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 165.1 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a0ddb02-2e9b-4fc8-8f14-785f96164577")
+		(property "Reference" "TP6"
+			(at 161.798 58.7205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "COL5_from"
+			(at 161.798 61.1448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 165.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "157d4c1c-329f-4693-9547-5b8962c23848")
+		)
+		(instances
+			(project "Aida_Mid_Inside"
+				(path "/ef99a6d8-fba4-4326-a50f-547b5e80b50b"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e2ad07d-5f78-475a-a11b-6bc92432161a")
+		(property "Reference" "TP5"
+			(at 129.159 62.2878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "COL4_to"
+			(at 129.159 64.7121 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 124.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d81d7ee4-9158-42c2-ad16-29b6fffc8a1f")
+		)
+		(instances
+			(project "Aida_Mid_Inside"
+				(path "/ef99a6d8-fba4-4326-a50f-547b5e80b50b"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 76.2 71.12 270)
 		(unit 1)
@@ -1565,6 +2131,73 @@
 			(project "Aida_Mid_Inside"
 				(path "/ef99a6d8-fba4-4326-a50f-547b5e80b50b"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 175.26 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ec9a263-d887-41d9-8384-aea32f0f2287")
+		(property "Reference" "TP7"
+			(at 179.959 62.2878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "COL5_to"
+			(at 179.959 64.7121 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 175.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fae1d1b-74fc-4f96-9acd-acbbe50789d3")
+		)
+		(instances
+			(project "Aida_Mid_Inside"
+				(path "/ef99a6d8-fba4-4326-a50f-547b5e80b50b"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -1641,6 +2274,73 @@
 			(project "Aida_Mid_Inside"
 				(path "/ef99a6d8-fba4-4326-a50f-547b5e80b50b"
 					(reference "SW_LEFT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4d48beb-a9a7-432b-ae70-52c0c518d7a3")
+		(property "Reference" "TP3"
+			(at 78.359 62.2878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "COL3_to"
+			(at 78.359 64.7121 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15895aad-dd16-4d83-98e9-533eb348f5bc")
+		)
+		(instances
+			(project "Aida_Mid_Inside"
+				(path "/ef99a6d8-fba4-4326-a50f-547b5e80b50b"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -1784,6 +2484,71 @@
 			(project "Aida_Mid_Inside"
 				(path "/ef99a6d8-fba4-4326-a50f-547b5e80b50b"
 					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cee27e0f-01e5-47af-9b14-bfc641e68141")
+		(property "Reference" "TP4"
+			(at 110.998 58.7205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "COL4_from"
+			(at 110.998 61.1448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f69a46e-0025-45d2-bf75-6c39b0c89587")
+		)
+		(instances
+			(project "Aida_Mid_Inside"
+				(path "/ef99a6d8-fba4-4326-a50f-547b5e80b50b"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
