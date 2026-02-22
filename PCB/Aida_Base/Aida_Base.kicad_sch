@@ -26925,7 +26925,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "GND_R"
 			(at 217.17 276.733 0)
 			(effects
 				(font
@@ -28814,7 +28814,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "GND_L_to_Mid"
 			(at 73.66 267.843 0)
 			(effects
 				(font
@@ -29590,7 +29590,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "GND_L"
 			(at 41.91 276.733 0)
 			(effects
 				(font
@@ -34357,7 +34357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "GND_L"
 			(at 21.59 271.653 0)
 			(effects
 				(font
@@ -35612,7 +35612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "GND_R_to_Mid"
 			(at 271.78 267.843 0)
 			(effects
 				(font
@@ -37343,7 +37343,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "GND_L"
 			(at 19.05 276.733 0)
 			(effects
 				(font
@@ -43829,7 +43829,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "GND_R"
 			(at 237.49 271.653 0)
 			(effects
 				(font
@@ -43922,7 +43922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "GND_R"
 			(at 240.03 276.733 0)
 			(effects
 				(font
@@ -45315,7 +45315,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "GND_L_to_Mid"
 			(at 90.17 267.843 0)
 			(effects
 				(font
@@ -46949,7 +46949,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "GND_L"
 			(at 39.37 271.653 0)
 			(effects
 				(font
@@ -47319,7 +47319,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "GND_R_to_Mid"
 			(at 288.29 267.843 0)
 			(effects
 				(font
@@ -48618,7 +48618,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "GND_R"
 			(at 219.71 271.653 0)
 			(effects
 				(font
