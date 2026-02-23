@@ -541,6 +541,10 @@
       {
         "netclass": "Max",
         "pattern": "D_*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+1V*"
       }
     ]
   },

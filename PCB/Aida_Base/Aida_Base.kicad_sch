@@ -18071,7 +18071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 146.05 57.15 0)
 			(effects
 				(font
@@ -18319,7 +18319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 363.22 31.75 0)
 			(effects
 				(font
@@ -19553,7 +19553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 146.05 44.45 0)
 			(effects
 				(font
@@ -19901,7 +19901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 171.45 57.15 0)
 			(effects
 				(font
@@ -20691,7 +20691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 388.62 57.15 0)
 			(effects
 				(font
@@ -21663,7 +21663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 388.62 44.45 0)
 			(effects
 				(font
@@ -21823,7 +21823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 146.05 31.75 0)
 			(effects
 				(font
@@ -23548,7 +23548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 146.05 69.85 0)
 			(effects
 				(font
@@ -24695,7 +24695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 363.22 69.85 0)
 			(effects
 				(font
@@ -24912,7 +24912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 171.45 69.85 0)
 			(effects
 				(font
@@ -25688,7 +25688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 337.82 57.15 0)
 			(effects
 				(font
@@ -25887,7 +25887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 363.22 57.15 0)
 			(effects
 				(font
@@ -27154,7 +27154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 184.15 69.85 0)
 			(effects
 				(font
@@ -28348,7 +28348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 158.75 69.85 0)
 			(effects
 				(font
@@ -30804,7 +30804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 363.22 44.45 0)
 			(effects
 				(font
@@ -31854,7 +31854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 133.35 31.75 0)
 			(effects
 				(font
@@ -35053,7 +35053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 350.52 69.85 0)
 			(effects
 				(font
@@ -35712,7 +35712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 375.92 57.15 0)
 			(effects
 				(font
@@ -35806,7 +35806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 350.52 57.15 0)
 			(effects
 				(font
@@ -36663,7 +36663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 120.65 44.45 0)
 			(effects
 				(font
@@ -38216,7 +38216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 133.35 57.15 0)
 			(effects
 				(font
@@ -39505,7 +39505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 337.82 69.85 0)
 			(effects
 				(font
@@ -40197,7 +40197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 375.92 31.75 0)
 			(effects
 				(font
@@ -42959,7 +42959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 350.52 44.45 0)
 			(effects
 				(font
@@ -43742,7 +43742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 325.12 69.85 0)
 			(effects
 				(font
@@ -44110,7 +44110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 120.65 57.15 0)
 			(effects
 				(font
@@ -44902,7 +44902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 133.35 44.45 0)
 			(effects
 				(font
@@ -45500,7 +45500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 158.75 57.15 0)
 			(effects
 				(font
@@ -48256,7 +48256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 375.92 44.45 0)
 			(effects
 				(font
@@ -49253,7 +49253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2"
+		(property "Footprint" "Lib_Local:Kailh_socket_ChocV2_for_T=1.2mmPCB"
 			(at 158.75 44.45 0)
 			(effects
 				(font
