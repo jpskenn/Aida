@@ -26832,7 +26832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:YS-SK6812MINI-E_middle_hole_with_small_pad"
+		(property "Footprint" "Lib_Local:YS-SK6812MINI-E_middle_hole_with_small_pad_NPTH"
 			(at 149.86 184.15 0)
 			(effects
 				(font
@@ -32037,7 +32037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:YS-SK6812MINI-E_middle_hole_with_small_pad"
+		(property "Footprint" "Lib_Local:YS-SK6812MINI-E_middle_hole_with_small_pad_NPTH"
 			(at 187.96 184.15 0)
 			(effects
 				(font
@@ -34119,7 +34119,7 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "Reset"
 			(at 284.48 222.25 0)
 			(effects
 				(font
@@ -34755,7 +34755,7 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "Reset"
 			(at 86.36 222.25 0)
 			(effects
 				(font
@@ -35321,7 +35321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:YS-SK6812MINI-E_middle_hole_with_small_pad"
+		(property "Footprint" "Lib_Local:YS-SK6812MINI-E_middle_hole_with_small_pad_NPTH"
 			(at 347.98 184.15 0)
 			(effects
 				(font
@@ -36156,7 +36156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:YS-SK6812MINI-E_middle_hole_with_small_pad"
+		(property "Footprint" "Lib_Local:YS-SK6812MINI-E_middle_hole_with_small_pad_NPTH"
 			(at 168.91 184.15 0)
 			(effects
 				(font
@@ -36758,7 +36758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:YS-SK6812MINI-E_middle_hole_with_small_pad"
+		(property "Footprint" "Lib_Local:YS-SK6812MINI-E_middle_hole_with_small_pad_NPTH"
 			(at 386.08 184.15 0)
 			(effects
 				(font
@@ -37495,15 +37495,15 @@
 		(fields_autoplaced yes)
 		(uuid "9ef1df0a-8da3-439e-af4b-98447da44711")
 		(property "Reference" "SW2"
-			(at 284.48 215.9 0)
+			(at 284.48 216.4545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BOOT"
-			(at 284.48 218.44 0)
+		(property "Value" "Boot"
+			(at 284.48 218.8788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38622,7 +38622,7 @@
 				)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "Boot"
 			(at 86.36 218.44 0)
 			(effects
 				(font
@@ -46593,7 +46593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib_Local:YS-SK6812MINI-E_middle_hole_with_small_pad"
+		(property "Footprint" "Lib_Local:YS-SK6812MINI-E_middle_hole_with_small_pad_NPTH"
 			(at 367.03 184.15 0)
 			(effects
 				(font
