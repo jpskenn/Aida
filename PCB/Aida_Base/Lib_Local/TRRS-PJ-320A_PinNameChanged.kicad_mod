@@ -222,4 +222,15 @@
 			(xyz -90 0 180)
 		)
 	)
+	(model "${KIPRJMOD}/Lib_Local/PJ-320A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
 )

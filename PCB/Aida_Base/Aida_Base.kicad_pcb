@@ -4401,7 +4401,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8774ed21-c0e4-41af-8a69-98c5db2ca6a5")
+			(uuid "7629bf24-fb07-4d83-a4a8-71438e360fe6")
 		)
 		(fp_line
 			(start -2.8 0)
@@ -4411,7 +4411,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "73ab73d0-e36e-4e33-a7e8-5a195bda220a")
+			(uuid "50040210-8e67-4415-b4e5-2852642b3ad8")
 		)
 		(fp_line
 			(start 2.8 -2)
@@ -4421,7 +4421,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "81e173c7-c4c9-49da-9d2f-af0552d78d40")
+			(uuid "91abba00-ff5e-4dd9-bc29-6ebabc37e7e3")
 		)
 		(fp_line
 			(start 2.8 0)
@@ -4431,7 +4431,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ff7356ad-6b61-435e-882b-563f93e395d9")
+			(uuid "abee28cd-1bac-4df6-bc0f-882818915985")
 		)
 		(fp_line
 			(start 3.05 0)
@@ -4441,7 +4441,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0de9897a-b81c-4f11-b6a4-f663766e2a3e")
+			(uuid "5f7f0838-853f-4c24-859f-86e86604e794")
 		)
 		(fp_line
 			(start 3.05 0)
@@ -4451,7 +4451,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "12df19fc-39a5-4069-84c0-1e3ff71c6972")
+			(uuid "853aaf02-04d7-4107-a42f-09de78a40e56")
 		)
 		(fp_line
 			(start 3.05 12.1)
@@ -4461,7 +4461,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "00b9613d-415a-48e6-bc77-cd3bdd84d772")
+			(uuid "32fdcf05-1665-417d-bd22-db13a4e0ff9c")
 		)
 		(fp_text user "Ring2"
 			(at 0 3.25 0)
@@ -4512,14 +4512,14 @@
 			(size 0.8 0.8)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
-			(uuid "2b84a81a-8f91-4cb7-b429-ec994acd09b8")
+			(uuid "03d65e03-e151-4806-815a-7daefda9a664")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 8.6)
 			(size 0.8 0.8)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
-			(uuid "51d12bf1-922b-4994-baab-bf2b6d4918ae")
+			(uuid "c5398722-035b-460d-9438-30d8e1d50e2c")
 		)
 		(pad "R1" thru_hole oval
 			(at 2.3 6.2)
@@ -4549,7 +4549,6 @@
 			(remove_unused_layers no)
 			(net 2 "GND_L")
 			(pintype "passive")
-			(zone_connect 2)
 			(uuid "acf3c163-e8c1-4e6c-95d8-f4039fd527d4")
 		)
 		(pad "T" thru_hole oval
@@ -4572,6 +4571,17 @@
 			)
 			(rotate
 				(xyz -90 0 180)
+			)
+		)
+		(model "${KIPRJMOD}/Lib_Local/PJ-320A.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -9266,7 +9276,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c611f84b-45a0-4436-a163-99e3de4f355a")
+			(uuid "265a0e71-a3ea-4225-960a-f7b8ec6fb744")
 		)
 		(fp_line
 			(start -2.8 0)
@@ -9276,7 +9286,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2f964681-046d-49f2-b9ff-5acd2bfd2bf9")
+			(uuid "e0534d28-6fa0-4fbd-b846-39a8696c723e")
 		)
 		(fp_line
 			(start 2.8 -2)
@@ -9286,7 +9296,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "00a43c4a-0799-42f5-971c-c0b3c7357308")
+			(uuid "51cc1cb5-a156-4794-9cc1-af105c71670e")
 		)
 		(fp_line
 			(start 2.8 0)
@@ -9296,7 +9306,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f4a24a92-b264-4c41-a582-a1387841716c")
+			(uuid "86e2f6f5-4a4d-469a-997b-d24918d3e8ce")
 		)
 		(fp_line
 			(start 3.05 0)
@@ -9306,7 +9316,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d772de20-1f1d-4949-9421-9f5ceef6d2dd")
+			(uuid "6ba3e789-ac9b-4e1d-89ff-3f55283f5bfe")
 		)
 		(fp_line
 			(start 3.05 0)
@@ -9316,7 +9326,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4980c36d-b172-4e33-9c7b-ed066e9b057a")
+			(uuid "af4addee-2f01-4245-9755-a9e50fe08f79")
 		)
 		(fp_line
 			(start 3.05 12.1)
@@ -9326,7 +9336,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8592a850-a368-4d66-87da-e775d6043613")
+			(uuid "ee77c0c0-cd0e-40b4-b69f-bcb7c7c163aa")
 		)
 		(fp_text user "Ring1"
 			(at 0 6.25 0)
@@ -9377,14 +9387,14 @@
 			(size 0.8 0.8)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
-			(uuid "7b9ec6bc-15c9-41db-9d0d-671ba776a8f5")
+			(uuid "6cb680bf-8008-4f7e-9682-e335c0b62cef")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 8.6)
 			(size 0.8 0.8)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
-			(uuid "472b2fdf-6505-43a4-bbed-51c5aed393f6")
+			(uuid "4e643008-4413-456f-9322-5ed485905f2c")
 		)
 		(pad "R1" thru_hole oval
 			(at 2.3 6.2)
@@ -9414,7 +9424,6 @@
 			(remove_unused_layers no)
 			(net 5 "GND_R")
 			(pintype "passive")
-			(zone_connect 2)
 			(uuid "68ed8de4-9ff6-4751-87dc-a6b019876565")
 		)
 		(pad "T" thru_hole oval
@@ -9437,6 +9446,17 @@
 			)
 			(rotate
 				(xyz -90 0 180)
+			)
+		)
+		(model "${KIPRJMOD}/Lib_Local/PJ-320A.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -32394,6 +32414,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Lib_Local/TYPE-C-31-M-12--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz 0 -1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
