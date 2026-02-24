@@ -3187,6 +3187,68 @@
 		(layer "Edge.Cuts")
 		(uuid "f44a53c4-f473-4745-8da0-9a203edd9e77")
 	)
+	(gr_circle
+		(center 23.8125 23.8125)
+		(end 25.003125 23.8125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "05c20652-2754-4f66-9b43-a5211af0040d")
+	)
+	(gr_line
+		(start 150.01875 23.8125)
+		(end 154.78125 23.8125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "15531f46-542e-4131-8094-c3650f5a9374")
+	)
+	(gr_line
+		(start 23.8125 21.43125)
+		(end 23.8125 26.19375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "29cce3e9-f593-4843-b647-fa03b3cb47b6")
+	)
+	(gr_line
+		(start 152.4 21.43125)
+		(end 152.4 26.19375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "2cdf3d86-d72e-4109-b224-193631557260")
+	)
+	(gr_line
+		(start 21.43125 23.8125)
+		(end 26.19375 23.8125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "cdfebcb0-57f7-4ed5-aca3-5b13bf482387")
+	)
+	(gr_circle
+		(center 152.4 23.8125)
+		(end 153.590625 23.8125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "ea616511-4593-4c1b-8940-5a7e35608ef3")
+	)
 	(gr_text "DO NOT DRILL CIRCLES.\nThose are not holes."
 		(at 152.995421 70.842227 0)
 		(layer "Cmts.User")
@@ -3270,6 +3332,30 @@
 			(font
 				(size 2 2)
 				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Grid Origin"
+		(at 20.240625 21.43125 0)
+		(layer "User.1")
+		(uuid "51cdd694-2f4d-4852-8a7e-19bc042b84af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Center Origin"
+		(at 148.828125 21.43125 0)
+		(layer "User.1")
+		(uuid "eb1049b0-75b3-4886-85d8-c5c06e918374")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -4056,6 +4142,18 @@
 			"cc97f18d-bcd0-4fcc-8004-b2c03bc3e054" "d5bd20f9-7e86-4bb2-a424-9cf56a4cc174"
 			"e0436c74-c0ea-4049-9bae-5aae480920d2" "e1359998-8a32-444b-9f26-6a8d02685534"
 			"e72cd0e5-1a8e-4f5c-9515-45e394c23130" "f44a53c4-f473-4745-8da0-9a203edd9e77"
+		)
+	)
+	(group ""
+		(uuid "ce73113b-059e-4628-87aa-bcbc9059333a")
+		(members "15531f46-542e-4131-8094-c3650f5a9374" "2cdf3d86-d72e-4109-b224-193631557260"
+			"ea616511-4593-4c1b-8940-5a7e35608ef3" "eb1049b0-75b3-4886-85d8-c5c06e918374"
+		)
+	)
+	(group ""
+		(uuid "ed20a844-859a-448c-90f3-ced249029414")
+		(members "05c20652-2754-4f66-9b43-a5211af0040d" "29cce3e9-f593-4843-b647-fa03b3cb47b6"
+			"51cdd694-2f4d-4852-8a7e-19bc042b84af" "cdfebcb0-57f7-4ed5-aca3-5b13bf482387"
 		)
 	)
 	(embedded_fonts no)

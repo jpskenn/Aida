@@ -3663,6 +3663,68 @@
 		(layer "Edge.Cuts")
 		(uuid "f4d8456d-3085-49d8-aab9-7582066fe261")
 	)
+	(gr_circle
+		(center 152.4 23.8125)
+		(end 153.590625 23.8125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "065d6681-7ba5-4588-98c6-80817ce4f8f7")
+	)
+	(gr_line
+		(start 21.43125 23.8125)
+		(end 26.19375 23.8125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "372d44a1-f9fd-42d5-bfe7-77f223b9e496")
+	)
+	(gr_circle
+		(center 23.8125 23.8125)
+		(end 25.003125 23.8125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "e650641b-a698-4586-9d26-6d65606f35b7")
+	)
+	(gr_line
+		(start 23.8125 21.43125)
+		(end 23.8125 26.19375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "ecb66218-12f0-4505-a5dc-e84e84e1582e")
+	)
+	(gr_line
+		(start 150.01875 23.8125)
+		(end 154.78125 23.8125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "ecfa8c62-a0ef-4eca-aafe-9966ff6fbb19")
+	)
+	(gr_line
+		(start 152.4 21.43125)
+		(end 152.4 26.19375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "f9cb1e02-b91f-48ec-8bfa-2dcedd4acf70")
+	)
 	(gr_text "Top PCB outline"
 		(locked yes)
 		(at 119.658517 32.444558 0)
@@ -3743,6 +3805,30 @@
 		(at 42.267197 32.1469 0)
 		(layer "Eco2.User")
 		(uuid "dbcfd873-8d7d-49c3-9d67-1fdae49f29a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Center Origin"
+		(at 148.828125 21.43125 0)
+		(layer "User.1")
+		(uuid "0c8be5e7-ea1f-4f6a-b85c-1cfcafa569f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Grid Origin"
+		(at 20.240625 21.43125 0)
+		(layer "User.1")
+		(uuid "56a9333c-898b-4629-9a27-55d00b1f2ede")
 		(effects
 			(font
 				(size 1 1)
@@ -4502,6 +4588,18 @@
 			"7e9e392a-7827-4a63-b626-e6e4292160a8" "a96718da-8055-4e4c-b12a-0ce1a4e913f9"
 			"b838206e-0566-4182-a87d-670d698b7b07" "cbf60ffd-bc66-44be-a3d2-57a5d4d8a601"
 			"dbcfd873-8d7d-49c3-9d67-1fdae49f29a3" "fa57a725-45a1-460c-ab70-561e452592fd"
+		)
+	)
+	(group ""
+		(uuid "69dd9d76-1667-40a6-9072-875c3bcfdad6")
+		(members "065d6681-7ba5-4588-98c6-80817ce4f8f7" "0c8be5e7-ea1f-4f6a-b85c-1cfcafa569f7"
+			"ecfa8c62-a0ef-4eca-aafe-9966ff6fbb19" "f9cb1e02-b91f-48ec-8bfa-2dcedd4acf70"
+		)
+	)
+	(group ""
+		(uuid "eb0f6b7e-4882-41f5-aac8-6b31d1e2e433")
+		(members "372d44a1-f9fd-42d5-bfe7-77f223b9e496" "56a9333c-898b-4629-9a27-55d00b1f2ede"
+			"e650641b-a698-4586-9d26-6d65606f35b7" "ecb66218-12f0-4505-a5dc-e84e84e1582e"
 		)
 	)
 	(embedded_fonts no)
