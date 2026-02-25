@@ -78669,6 +78669,56 @@
 		(layer "User.1")
 		(uuid "e76ff575-c06f-4a3f-be8f-097efa066e81")
 	)
+	(gr_text "Aida DN0010\nby @jpskenn"
+		(at 57.15 58.340625 0)
+		(layer "B.SilkS")
+		(uuid "5e10bc43-c0c3-4ff5-a12d-d60afbce2983")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "L Back"
+		(at 78.58125 38.1 0)
+		(layer "B.SilkS" knockout)
+		(uuid "d2f238e8-1254-43e6-b020-a4bce49d2225")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+				(italic yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "R Back"
+		(at 242.8875 38.1 0)
+		(layer "B.SilkS" knockout)
+		(uuid "e7650579-9fef-456c-a07c-0308b17f1c5b")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+				(italic yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Aida DN0010\nby @jpskenn"
+		(at 257.175 58.340625 0)
+		(layer "B.SilkS")
+		(uuid "f2cc4109-93f9-4ef8-9479-c55b2b60075b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Top PCB outline"
 		(locked yes)
 		(at 119.658517 32.444558 0)

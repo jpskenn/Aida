@@ -4395,6 +4395,44 @@
 		(layer "User.1")
 		(uuid "ff16f92d-fbf4-4a07-8458-e46fd14acfc1")
 	)
+	(gr_text "Aida DN0010\nby @jpskenn"
+		(at 138.112596 43.457829 0)
+		(layer "F.SilkS")
+		(uuid "148fc5c9-7e03-49f2-9d61-4411b6777abe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "R Back"
+		(at 132.159466 48.220333 0)
+		(layer "F.SilkS" knockout)
+		(uuid "8ba29053-c91b-4e8e-b423-1949545c7548")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "L Back"
+		(at 148.82823 48.220333 0)
+		(layer "B.SilkS" knockout)
+		(uuid "c11bb7d7-5393-4fe8-b22e-a7bf1ab10fac")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+				(italic yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Top PCB outline"
 		(at 156.865274 32.444558 0)
 		(layer "Eco1.User")

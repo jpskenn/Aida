@@ -2470,8 +2470,8 @@
 		(embedded_fonts no)
 	)
 	(gr_line
-		(start 52.38756 53.850024)
-		(end 52.387524 96.7125)
+		(start 52.3869 44.35035)
+		(end 52.386864 97.009725)
 		(stroke
 			(width 0.75)
 			(type dot)
@@ -2560,7 +2560,7 @@
 		(uuid "b8ea137c-e13b-40d4-ab18-f82708863a51")
 	)
 	(gr_line
-		(start 53.578125 52.3875)
+		(start 55.959375 42.8625)
 		(end 42.8625 95.25)
 		(stroke
 			(width 0.5)
@@ -2680,7 +2680,7 @@
 		(uuid "397ccdb5-5520-44f1-8315-1297a151bb46")
 	)
 	(gr_line
-		(start 53.57815 52.387524)
+		(start 55.959375 42.8625)
 		(end 42.862525 95.250024)
 		(stroke
 			(width 0.5)
@@ -2760,8 +2760,8 @@
 		(uuid "9f7ef995-2067-40f4-90c7-d41fa1dba66b")
 	)
 	(gr_line
-		(start 52.38756 53.850024)
-		(end 52.387524 96.7125)
+		(start 52.38756 44.35035)
+		(end 52.387524 97.009725)
 		(stroke
 			(width 0.75)
 			(type dot)
@@ -3724,6 +3724,30 @@
 		)
 		(layer "User.1")
 		(uuid "f9cb1e02-b91f-48ec-8bfa-2dcedd4acf70")
+	)
+	(gr_text "Aida DN0010\nby @jpskenn"
+		(at 134.5383 114.00045 0)
+		(layer "F.SilkS")
+		(uuid "654dd5e9-151a-4e16-bbfa-c5d1533c9866")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Aida DN0010\nby @jpskenn"
+		(at 144.6584 114.00045 0)
+		(layer "B.SilkS")
+		(uuid "ca6d0fac-2d8b-4dae-9a0f-4034ca4ba6de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text "Top PCB outline"
 		(locked yes)
