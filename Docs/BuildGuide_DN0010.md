@@ -86,6 +86,7 @@ Aidaのコンセプトや特徴、ビルド例などについては、こちら�
 | 〓未定〓ゴム足（大） | 2 | [光 HIKARI KKU-190](https://www.yodobashi.com/product/100000001001980663/) |
 | 〓未定〓ゴム足（小） | 5 | [CS-102](https://www.3mcompany.jp/3M/ja_JP/p/d/v000453068/) |
 | LED<br>SK6812MINI-E | 6 | [マイコン内蔵ＲＧＢＬＥＤ　ＳＫ６８１２ＭＩＮＩ－Ｅ](https://akizukidenshi.com/catalog/g/gI-15478/) |
+| TRRSジャック<br>PJ-320A 4pin DIP | 2 | [TRRSジャック](https://shop.yushakobo.jp/products/a0800tr-01-1?srsltid=AfmBOoq_Y1crls1it4CWp40-6sYMnaspEu17AVmIt0zsMkzH__1oef0n) |
 | Chocスイッチ用ソケット | 40 | [Kailh Switch Socket（Kailh Choc ロープロファイル用）](https://shop.yushakobo.jp/products/a01ps?variant=37665172553889) |
 | 薄いゴムシート<br>T=1mm 〓サイズ未定。SandyLPよりも、かなり少なくてよい。10mm * 500mm〓 | 〓 | [低弾性ゴムシート－ハネナイトＲ－](https://jp.misumi-ec.com/vona2/detail/110300277050/?ProductCode=UNLEA1-10) |
 | 厚いゴムシート<br>T=2mm 〓サイズ未定。小さくてよい。5mm * 500mm〓 | 1 | [低弾性ゴムシート－ハネナイトＲ－](https://jp.misumi-ec.com/vona2/detail/110300277050/?ProductCode=UNSEA2-5) |
