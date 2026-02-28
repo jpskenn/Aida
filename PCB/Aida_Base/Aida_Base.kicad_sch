@@ -17329,7 +17329,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C78442"
+		(property "LCSC" "C558444"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -18022,6 +18022,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C51118"
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "1cd73516-7105-4b08-a322-113aa7032e3c")
 		)
@@ -18271,6 +18280,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 377.19 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 377.19 226.06 0)
 			(effects
 				(font
@@ -18712,6 +18730,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25104"
+			(at 340.36 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1cdcef9-8f02-43b1-95e5-e7916f91250c")
 		)
@@ -18921,6 +18948,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 246.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 246.38 64.77 0)
 			(effects
 				(font
@@ -19280,7 +19316,7 @@
 		(at 171.45 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0ea58a4c-2f80-4fe6-8088-41bf6f76b815")
@@ -19370,7 +19406,7 @@
 		(at 360.68 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -19677,7 +19713,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C910763"
 			(at 358.14 135.89 0)
 			(effects
 				(font
@@ -20651,6 +20687,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25100"
+			(at 26.67 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "36d8d59b-0dc3-4dc5-aef6-08515a8f2989")
 		)
@@ -20765,7 +20810,7 @@
 		(at 171.45 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1dea9fec-115d-440b-82a4-067f47b1ee9c")
@@ -20917,6 +20962,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 236.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 236.22 64.77 0)
 			(effects
 				(font
@@ -21175,6 +21229,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 38.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 38.1 106.68 0)
 			(effects
 				(font
@@ -21551,7 +21614,7 @@
 		(at 110.49 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -22180,7 +22243,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C23733"
 			(at 125.73 180.34 0)
 			(effects
 				(font
@@ -22305,6 +22368,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 190.5 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ac8ce81-0e8d-49d1-ac3b-d6457fb2e26b")
 		)
@@ -22386,6 +22458,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 179.07 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 179.07 226.06 0)
 			(effects
 				(font
@@ -22479,7 +22560,7 @@
 		(at 308.61 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -22886,6 +22967,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 287.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 287.02 64.77 0)
 			(effects
 				(font
@@ -23689,6 +23779,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebfb1e69-2cc9-4d6a-821c-4117b3fcbde7")
 		)
@@ -23833,6 +23932,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 78.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 78.74 64.77 0)
 			(effects
 				(font
@@ -24099,7 +24207,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C130723"
 			(at 82.55 44.45 0)
 			(effects
 				(font
@@ -24213,6 +24321,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 180.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C18185602"
 			(at 180.34 106.68 0)
 			(effects
 				(font
@@ -24399,6 +24516,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 17.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eeb7b238-f86f-485f-a37e-3260dbdc8771")
 		)
@@ -24475,6 +24601,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 325.12 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
 			(at 325.12 120.65 90)
 			(effects
 				(font
@@ -24619,7 +24754,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C130723"
 			(at 280.67 44.45 0)
 			(effects
 				(font
@@ -25441,7 +25576,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C910763"
 			(at 160.02 135.89 0)
 			(effects
 				(font
@@ -25575,6 +25710,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 345.44 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
 			(at 345.44 139.7 90)
 			(effects
 				(font
@@ -25829,6 +25973,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C190862"
+			(at 41.91 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "fa8b1dd7-a832-4fca-a076-bc463c934157")
 		)
@@ -25961,7 +26114,7 @@
 		(at 195.58 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -26231,6 +26384,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C341520"
+			(at 220.98 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f83e227-6756-4857-9ff3-7917778aa6be")
 		)
@@ -26386,6 +26548,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 88.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94e7ea76-9248-4a99-853d-be0427d33d92")
 		)
@@ -26406,7 +26577,7 @@
 		(at 308.61 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -26725,6 +26896,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 19.05 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da9151b9-ff03-4c05-a375-ffe843f73c0c")
 		)
@@ -26878,6 +27058,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 149.86 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 149.86 184.15 0)
 			(effects
 				(font
@@ -27415,6 +27604,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 26.67 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24b778c7-45a4-41b4-a954-fdab0fb65a40")
 		)
@@ -27718,6 +27916,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25104"
+			(at 386.08 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "214911a7-ffcf-4f12-994f-ce7281f9b0b9")
 		)
@@ -27796,6 +28003,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 224.79 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25100"
 			(at 224.79 146.05 90)
 			(effects
 				(font
@@ -28153,7 +28369,7 @@
 		(at 171.45 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5748db31-bb28-47b2-870d-c26e6ec443a8")
@@ -28300,6 +28516,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 276.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 276.86 64.77 0)
 			(effects
 				(font
@@ -28678,6 +28903,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32851d27-95d0-4f7e-9492-dd499b054989")
 		)
@@ -28801,7 +29035,7 @@
 		(at 71.12 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5c1ddacc-07fd-459e-af62-da378289ebe5")
@@ -28954,6 +29188,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 214.63 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
 			(at 214.63 224.79 0)
 			(effects
 				(font
@@ -29426,6 +29669,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 287.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 287.02 87.63 0)
 			(effects
 				(font
@@ -30423,6 +30675,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25100"
+			(at 224.79 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a82772a-75fb-45aa-9da8-b313103d8954")
 		)
@@ -30502,6 +30763,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 226.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 226.06 64.77 0)
 			(effects
 				(font
@@ -30592,6 +30862,15 @@
 		(property private "KLC_S4.2_VREG_VOUT" "Should be placed next to DVDD."
 			(at 54.61 163.83 0)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2040"
+			(at 54.61 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31766,7 +32045,7 @@
 		(at 137.16 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -31996,6 +32275,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 16.51 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4c94c08-155a-4501-9018-567d3f59af1f")
 		)
@@ -32083,6 +32371,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 187.96 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 187.96 184.15 0)
 			(effects
 				(font
@@ -32239,6 +32536,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 127 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
 			(at 127 120.65 90)
 			(effects
 				(font
@@ -33602,6 +33908,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1837a68b-aad4-4281-bc75-f024591fcc44")
 		)
@@ -33688,7 +34003,7 @@
 		(at 116.84 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -33821,6 +34136,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 256.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 256.54 106.68 0)
 			(effects
 				(font
@@ -34324,6 +34648,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 236.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d103f168-7a1d-4766-b039-4ddfa8246595")
 		)
@@ -34510,6 +34843,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C341520"
+			(at 22.86 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01122199-cd0c-4913-9837-bbeaad141e49")
 		)
@@ -34592,6 +34934,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 215.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 215.9 64.77 0)
 			(effects
 				(font
@@ -35193,6 +35544,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25104"
+			(at 187.96 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "845a69a7-c736-4aae-bf79-a66f1ef1ef07")
 		)
@@ -35272,6 +35632,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 266.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 266.7 64.77 0)
 			(effects
 				(font
@@ -35367,6 +35736,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 347.98 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 347.98 184.15 0)
 			(effects
 				(font
@@ -35599,7 +35977,7 @@
 		(at 269.24 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8af6ee66-3766-4557-b84f-998f362401f6")
@@ -36210,6 +36588,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 168.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c538765a-f11a-4ae1-8798-7058a9a56d06")
 		)
@@ -36295,6 +36682,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 256.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 256.54 64.77 0)
 			(effects
 				(font
@@ -36812,6 +37208,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 386.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9221c89-9fdc-4f24-877b-1963be94e806")
 		)
@@ -37028,7 +37433,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "9a13ceb6-0232-45bb-a7e0-f1afbaddfaaf")
@@ -37772,6 +38177,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 276.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10d2fc21-902e-4c1b-8519-6985977253d6")
 		)
@@ -37792,7 +38206,7 @@
 		(at 110.49 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -38018,7 +38432,7 @@
 		(at 335.28 259.08 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -38477,6 +38891,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 325.12 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
 			(at 325.12 123.19 90)
 			(effects
 				(font
@@ -39016,6 +39439,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8a25fbc-bce3-439a-9e49-3b389eab5e42")
 		)
@@ -39228,6 +39660,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 82.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
 			(at 82.55 39.37 0)
 			(effects
 				(font
@@ -39457,6 +39898,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 147.32 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
 			(at 147.32 139.7 90)
 			(effects
 				(font
@@ -39849,6 +40299,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 142.24 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25104"
 			(at 142.24 186.69 90)
 			(effects
 				(font
@@ -40338,6 +40797,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C190862"
+			(at 240.03 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "e8bbec38-e363-4f60-86e5-7a4e9135c689")
 		)
@@ -40442,6 +40910,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C51118"
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "f33d9207-7f1c-47a8-9184-559d05dbdc88")
 		)
@@ -40520,7 +40997,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C23733"
 			(at 323.85 180.34 0)
 			(effects
 				(font
@@ -40679,7 +41156,7 @@
 		(at 389.89 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -41022,6 +41499,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C165948"
 			(at 109.22 130.81 0)
 			(effects
 				(font
@@ -42147,7 +42633,7 @@
 		(at 334.01 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -42273,6 +42759,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 378.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C18185602"
 			(at 378.46 106.68 0)
 			(effects
 				(font
@@ -42671,7 +43166,7 @@
 		(at 369.57 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ca60f9e0-a93a-45e3-95dd-025e3f077e22")
@@ -42764,7 +43259,7 @@
 		(at 369.57 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "cb79e1fc-b620-40e3-8476-f57b639765a8")
@@ -43100,6 +43595,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 68.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8738db23-8652-4f56-b778-07c9be366820")
 		)
@@ -43120,7 +43624,7 @@
 		(at 156.21 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -43259,6 +43763,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 27.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 27.94 64.77 0)
 			(effects
 				(font
@@ -44070,6 +44583,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 217.17 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c17661b-a3a3-4994-83f6-2b15a9b3a541")
 		)
@@ -44385,6 +44907,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2040"
+			(at 252.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "37"
 			(uuid "c6a3fe0c-298d-444c-9277-1a6567eed175")
 		)
@@ -44570,7 +45101,7 @@
 		(at 110.49 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -44728,7 +45259,7 @@
 		(at 369.57 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d5c3ae53-f7bd-4d58-9eef-6d0d33f37dd1")
@@ -45090,7 +45621,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C78442"
+		(property "LCSC" "C558444"
 			(at 347.98 113.03 0)
 			(effects
 				(font
@@ -45302,7 +45833,7 @@
 		(at 87.63 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "dbba3767-7929-4b58-85b0-cd3a0ecc3c55")
@@ -45703,6 +46234,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 224.79 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b67efd14-649c-409c-8af5-fa42b57f952c")
 		)
@@ -45723,7 +46263,7 @@
 		(at 308.61 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -46144,7 +46684,7 @@
 		(at 318.77 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "e3193d41-9b4a-407c-bae1-51b1f9f99da4")
@@ -46307,6 +46847,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 307.34 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C165948"
 			(at 307.34 130.81 0)
 			(effects
 				(font
@@ -46639,6 +47188,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 367.03 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 367.03 184.15 0)
 			(effects
 				(font
@@ -47220,6 +47778,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 280.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9633e53f-aef4-4a79-b582-e8e86de56f2a")
 		)
@@ -47306,7 +47873,7 @@
 		(at 285.75 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "edde5cda-4a58-47ef-bf51-3ead2aaedad8")
@@ -47468,6 +48035,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 388.62 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "711a5242-245a-41fb-b545-a0c629ef9e59")
 		)
@@ -47488,7 +48064,7 @@
 		(at 283.21 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -47938,7 +48514,7 @@
 		(at 85.09 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -48585,6 +49161,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 58.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c92245b-aa18-46a4-b1a6-f2b54c336f7d")
 		)
@@ -48958,6 +49543,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 127 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b718b1ea-d638-44c9-97d1-dd47dbb56469")
 		)
@@ -49036,6 +49630,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 26.67 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25100"
 			(at 26.67 148.59 90)
 			(effects
 				(font
@@ -49492,6 +50095,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 48.26 64.77 0)
 			(effects
 				(font

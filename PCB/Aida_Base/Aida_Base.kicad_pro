@@ -583,7 +583,7 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -631,7 +631,7 @@
           "group_by": false,
           "label": "LCSC-Reserve",
           "name": "LCSC-Reserve",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -684,7 +684,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
