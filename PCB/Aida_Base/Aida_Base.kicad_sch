@@ -19663,7 +19663,7 @@
 		(at 358.14 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -25526,7 +25526,7 @@
 		(at 160.02 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -26991,7 +26991,7 @@
 		(at 149.86 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -30813,7 +30813,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RP2040_L"
+		(property "Value" "RP2040"
 			(at 56.7533 207.3444 0)
 			(effects
 				(font
@@ -32304,7 +32304,7 @@
 		(at 187.96 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -34431,7 +34431,7 @@
 		(at 284.48 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "819251f3-432d-482c-b682-f5595c7c681f")
@@ -35094,7 +35094,7 @@
 		(at 86.36 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "84d08578-548b-44ad-8077-e74457f37f0a")
@@ -35669,7 +35669,7 @@
 		(at 347.98 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -36513,7 +36513,7 @@
 		(at 168.91 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -37133,7 +37133,7 @@
 		(at 386.08 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -37894,7 +37894,7 @@
 		(at 284.48 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -39032,7 +39032,7 @@
 		(at 86.36 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -41454,7 +41454,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_L"
+		(property "Value" "USB_C_Receptacle"
 			(at 109.22 111.3098 0)
 			(effects
 				(font
@@ -44851,7 +44851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RP2040_R"
+		(property "Value" "RP2040"
 			(at 254.8733 207.3444 0)
 			(effects
 				(font
@@ -46802,7 +46802,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_R"
+		(property "Value" "USB_C_Receptacle"
 			(at 307.34 111.3098 0)
 			(effects
 				(font
@@ -47121,7 +47121,7 @@
 		(at 367.03 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
