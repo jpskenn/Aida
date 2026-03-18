@@ -2,9 +2,6 @@
   "name": "Aida",
   "vendorId": "0xB9DD",
   "productId": "0xB1B2",
-  "menus": [],
-  "keycodes": [],
-  "lighting": "qmk_rgblight",
   "matrix": {"rows": 8, "cols": 6},
   "layouts": {
     "keymap": [
