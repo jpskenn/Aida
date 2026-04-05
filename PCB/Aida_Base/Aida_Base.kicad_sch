@@ -18472,7 +18472,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5k6"
 			(at 219.9386 41.6477 0)
 			(effects
 				(font
@@ -24822,7 +24822,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 20.5486 49.2677 0)
 			(effects
 				(font
@@ -27649,7 +27649,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5k6"
 			(at 20.5486 41.6477 0)
 			(effects
 				(font
@@ -33264,7 +33264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 219.9386 49.2677 0)
 			(effects
 				(font
