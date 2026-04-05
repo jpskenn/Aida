@@ -8128,10 +8128,6 @@
 		(uuid "9be601fd-17f2-4334-b180-161bc6417644")
 	)
 	(no_connect
-		(at 29.21 276.86)
-		(uuid "a52e7b67-0d79-4759-9d25-ba0142a6f0dc")
-	)
-	(no_connect
 		(at 189.23 195.58)
 		(uuid "f8ba03b8-af5f-4f80-93c4-83d61dbcf515")
 	)
@@ -8487,7 +8483,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 276.86) (xy 55.88 276.86)
+			(xy 66.04 276.86) (xy 55.88 276.86)
 		)
 		(stroke
 			(width 0)
@@ -8767,7 +8763,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 271.78) (xy 55.88 271.78)
+			(xy 62.23 271.78) (xy 55.88 271.78)
 		)
 		(stroke
 			(width 0)
@@ -8987,7 +8983,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 274.32) (xy 68.58 274.32)
+			(xy 55.88 274.32) (xy 69.85 274.32)
 		)
 		(stroke
 			(width 0)
@@ -9927,6 +9923,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 269.24) (xy 255.27 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f8e435-936a-4f3a-b5da-02d3014fc73b")
+	)
+	(wire
+		(pts
 			(xy 151.13 200.66) (xy 153.67 200.66)
 		)
 		(stroke
@@ -10287,7 +10293,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 271.78) (xy 257.81 271.78)
+			(xy 255.27 271.78) (xy 260.35 271.78)
 		)
 		(stroke
 			(width 0)
@@ -10337,7 +10343,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 276.86) (xy 255.27 276.86)
+			(xy 264.16 276.86) (xy 255.27 276.86)
 		)
 		(stroke
 			(width 0)
@@ -10624,6 +10630,16 @@
 			(type default)
 		)
 		(uuid "dc728ef3-96c9-47c1-9285-6816b3772748")
+	)
+	(wire
+		(pts
+			(xy 58.42 269.24) (xy 55.88 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de11b2aa-4f55-4eff-b380-b3b5641a87a8")
 	)
 	(wire
 		(pts
@@ -12990,7 +13006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02ba1ccd-2ae8-46ed-8c58-7141643bbd1b")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0128"
 			(at 138.43 280.67 0)
 			(effects
 				(font
@@ -13040,7 +13056,7 @@
 		(instances
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
-					(reference "#PWR0126")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -13850,7 +13866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ab703c6-2c92-41e4-b43d-0b4c7e290d05")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0126"
 			(at 267.97 280.67 0)
 			(effects
 				(font
@@ -13899,7 +13915,7 @@
 		(instances
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
-					(reference "#PWR0124")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -15852,80 +15868,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 24.13 271.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "208ee22d-dc08-41cd-b5ac-b4d400877ca6")
-		(property "Reference" "J10"
-			(at 24.765 265.0193 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 24.765 267.4436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 24.13 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 24.13 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "99ed0d86-a20a-4bac-8e28-54139d236948")
-		)
-		(pin "4"
-			(uuid "1364843a-5c4d-40ff-bfbd-fac87a365132")
-		)
-		(pin "3"
-			(uuid "6e2fa2c0-e518-4f7c-97cd-320a94c3cf6c")
-		)
-		(pin "1"
-			(uuid "a1f87f71-6628-4832-a20b-2325c592b257")
-		)
-		(instances
-			(project ""
-				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 105.41 25.4 180)
 		(unit 1)
@@ -17508,7 +17450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e75b802-0be9-4ba9-af3b-fcd8f61efce1")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0120"
 			(at 127 275.59 0)
 			(effects
 				(font
@@ -17559,7 +17501,7 @@
 		(instances
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
-					(reference "#PWR0119")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -17963,7 +17905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31b8339e-8d08-472b-a46a-5409fcc6a8e5")
-		(property "Reference" "J11"
+		(property "Reference" "J12"
 			(at 113.03 263.8255 0)
 			(effects
 				(font
@@ -18048,7 +17990,7 @@
 		(instances
 			(project ""
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
-					(reference "J11")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -19358,7 +19300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f417a20-bba6-4aa0-aed3-adc3d23b56ca")
-		(property "Reference" "J12"
+		(property "Reference" "J14"
 			(at 222.885 266.2893 0)
 			(effects
 				(font
@@ -19413,7 +19355,7 @@
 		(instances
 			(project ""
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
-					(reference "J12")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -20358,6 +20300,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 58.42 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48712ebd-920a-4057-b733-c062bab0cdf6")
+		(property "Reference" "#PWR0119"
+			(at 58.42 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_L"
+			(at 58.42 265.1069 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00f6f7a1-b9cb-44ca-8205-2e10690bcab0")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 19.05 50.8 0)
 		(unit 1)
@@ -21191,94 +21199,6 @@
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 50.8 274.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "5748db31-bb28-47b2-870d-c26e6ec443a8")
-		(property "Reference" "J13"
-			(at 51.435 270.0993 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 51.435 272.5236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
-			(at 50.8 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 50.8 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 50.8 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 50.8 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2d5bace6-5753-4e42-862c-e15839ef885c")
-		)
-		(pin "1"
-			(uuid "cc3991fb-1d14-4fb4-9ec6-8a6999767163")
-		)
-		(pin "3"
-			(uuid "447c20bc-b72d-4930-ba09-d1cf0d704281")
-		)
-		(instances
-			(project "Aida_Base"
-				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
-					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -22765,7 +22685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "659ca424-3de8-4163-9a6f-82db73b81118")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0124"
 			(at 173.99 279.4 0)
 			(effects
 				(font
@@ -22815,7 +22735,7 @@
 		(instances
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
-					(reference "#PWR0122")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -23643,7 +23563,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 274.32 0)
+		(at 69.85 274.32 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23652,8 +23572,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d02ca31-776a-4a63-beec-c104ce8b74b9")
-		(property "Reference" "#PWR0123"
-			(at 68.58 280.67 0)
+		(property "Reference" "#PWR0125"
+			(at 69.85 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23662,7 +23582,7 @@
 			)
 		)
 		(property "Value" "GND_L"
-			(at 68.58 278.4531 0)
+			(at 69.85 278.4531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23670,7 +23590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 274.32 0)
+			(at 69.85 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23679,7 +23599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 274.32 0)
+			(at 69.85 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23688,7 +23608,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 274.32 0)
+			(at 69.85 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23701,7 +23621,7 @@
 		(instances
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
-					(reference "#PWR0123")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -23775,7 +23695,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 58.42 271.78 0)
+		(at 62.23 271.78 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23784,8 +23704,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6db8e670-9d53-4a30-b041-7119398a9540")
-		(property "Reference" "#PWR0120"
-			(at 58.42 275.59 0)
+		(property "Reference" "#PWR0122"
+			(at 62.23 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23794,7 +23714,7 @@
 			)
 		)
 		(property "Value" "+5V_L"
-			(at 58.42 267.6469 0)
+			(at 62.23 267.6469 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23802,7 +23722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 271.78 0)
+			(at 62.23 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23811,7 +23731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 271.78 0)
+			(at 62.23 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23820,7 +23740,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 58.42 271.78 0)
+			(at 62.23 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23834,7 +23754,7 @@
 		(instances
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
-					(reference "#PWR0120")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -24131,6 +24051,72 @@
 			(project ""
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 256.54 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72ed21b1-61f0-448f-8ddd-0c73096c6835")
+		(property "Reference" "#PWR0121"
+			(at 256.54 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_R"
+			(at 256.54 265.1069 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fa0b838-b48a-4420-8090-de1689666625")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -26914,7 +26900,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 62.23 276.86 0)
+		(at 66.04 276.86 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26922,8 +26908,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "947bff90-e3de-42ea-a30a-2e1f0cc5dfdd")
-		(property "Reference" "#PWR0125"
-			(at 62.23 280.67 0)
+		(property "Reference" "#PWR0127"
+			(at 66.04 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26932,7 +26918,7 @@
 			)
 		)
 		(property "Value" "+3V3_L"
-			(at 62.23 272.7269 0)
+			(at 66.04 272.7269 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26940,7 +26926,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 276.86 0)
+			(at 66.04 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26949,7 +26935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 276.86 0)
+			(at 66.04 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26958,7 +26944,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 62.23 276.86 0)
+			(at 66.04 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26972,7 +26958,7 @@
 		(instances
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
-					(reference "#PWR0125")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -29085,7 +29071,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 257.81 271.78 0)
+		(at 260.35 271.78 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29094,8 +29080,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afca7c0a-22c8-4af1-bca5-98522618b489")
-		(property "Reference" "#PWR0121"
-			(at 257.81 275.59 0)
+		(property "Reference" "#PWR0123"
+			(at 260.35 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29104,7 +29090,7 @@
 			)
 		)
 		(property "Value" "+5V_R"
-			(at 257.81 267.6469 0)
+			(at 260.35 267.6469 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29112,7 +29098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 271.78 0)
+			(at 260.35 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29121,7 +29107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 271.78 0)
+			(at 260.35 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29130,7 +29116,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 257.81 271.78 0)
+			(at 260.35 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29144,7 +29130,7 @@
 		(instances
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
-					(reference "#PWR0121")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -29876,7 +29862,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 261.62 276.86 0)
+		(at 264.16 276.86 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29884,8 +29870,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4395c3b-22ca-4333-92a5-dcc58676e967")
-		(property "Reference" "#PWR0127"
-			(at 261.62 280.67 0)
+		(property "Reference" "#PWR0129"
+			(at 264.16 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29894,7 +29880,7 @@
 			)
 		)
 		(property "Value" "+3V3_R"
-			(at 261.62 272.7269 0)
+			(at 264.16 272.7269 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29902,7 +29888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 276.86 0)
+			(at 264.16 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29911,7 +29897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 276.86 0)
+			(at 264.16 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29920,7 +29906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 261.62 276.86 0)
+			(at 264.16 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29934,7 +29920,7 @@
 		(instances
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
-					(reference "#PWR0127")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -32827,6 +32813,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 250.19 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf089564-d36c-4e91-8534-6084cbab33f8")
+		(property "Reference" "J13"
+			(at 250.825 265.0193 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 250.825 267.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 250.19 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 250.19 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f885a8b5-584c-414b-aa81-861dcfb5de21")
+		)
+		(pin "4"
+			(uuid "0f35f22b-af63-4943-bef8-16efd18dbd09")
+		)
+		(pin "3"
+			(uuid "e20f40a4-2e6a-4a26-948f-34cfa1c9ca32")
+		)
+		(pin "1"
+			(uuid "aec8f644-3a6c-4d2c-8a5f-6c78cfa01abf")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 214.63 223.52 0)
 		(unit 1)
@@ -33517,94 +33576,6 @@
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
 					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 250.19 274.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "d5c3ae53-f7bd-4d58-9eef-6d0d33f37dd1")
-		(property "Reference" "J14"
-			(at 250.825 270.0993 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 250.825 272.5236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
-			(at 250.19 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 250.19 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 250.19 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 250.19 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b35807a6-5d84-4321-8da4-ea5efae12f08")
-		)
-		(pin "1"
-			(uuid "9b3f955e-7261-4627-943c-94ef056aacaf")
-		)
-		(pin "3"
-			(uuid "e9d6552f-01fe-4799-bb2f-5a6f91fc7e28")
-		)
-		(instances
-			(project "Aida_Base"
-				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -36072,6 +36043,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 24.13 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3a9a29c-57c7-4b77-9665-15f2ede30a3c")
+		(property "Reference" "J10"
+			(at 24.765 265.0193 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 24.765 267.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 24.13 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3a4dd646-82fd-4aff-a289-51436130bccb")
+		)
+		(pin "1"
+			(uuid "bbffcd3c-e74c-4234-89e2-6a626a15d0e3")
+		)
+		(pin "2"
+			(uuid "28ffab5c-f4f4-4618-9e57-1378874f5c38")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 146.05 64.77 0)
 		(unit 1)
@@ -36428,6 +36470,79 @@
 			(project "Aida_Base"
 				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 50.8 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8fe9d63-c508-409d-8621-d5093a01034b")
+		(property "Reference" "J11"
+			(at 51.435 265.0193 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 51.435 267.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 50.8 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 50.8 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e061b58-0041-407c-8290-d11aefc91104")
+		)
+		(pin "4"
+			(uuid "30ed0cce-3106-4019-abb9-45f9d461470d")
+		)
+		(pin "3"
+			(uuid "701aba73-9644-469f-871c-27aedc0ae63d")
+		)
+		(pin "1"
+			(uuid "4f3be635-4e39-4d3a-9017-d485d0c75fa7")
+		)
+		(instances
+			(project "Aida_Base"
+				(path "/bbe5db5f-9f86-436a-b9f7-cb3bb20d7c4d"
+					(reference "J11")
 					(unit 1)
 				)
 			)
